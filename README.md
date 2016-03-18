@@ -12,7 +12,20 @@ This repository contains course materials (e.g. slides, code, papers) produced f
 
 
 #### Courses (2016 Season)
-- 2/15/2016. Two week intensive
-- 3/15/2016. TBA
-- 4/14/2016. Data Science Basics
-- 5/15/2016. TBA
+|DATE | COURSE   |      DESCRIPTION      |  INSTRUCTOR | PRE-REQS |
+|----------|----------|----------|----------|----------|
+|March 14 |Data Science I: Basics|----------|----------|----------|
+|March 21|Working with teams (Git + Github)|----------|----------|----------|
+|April 4|Intro to Object Oriented Programming|----------|----------|----------|
+|April 6|Using APIs (Intro to REST)|----------|----------|----------|
+|April 12|Photoshop|----------|----------|----------|
+|April 14|Intro to Python|----------|----------|----------|
+|April 18|Basic SQL (using sqlite3)|----------|----------|----------|
+|April 20|Building APIs|----------|----------|----------|
+|April 25|Intro to R|----------|----------|----------|
+|April 29|Intro to JavaScript|----------|----------|----------|
+|May 4|Intro to Data Analysis with Python|----------|----------|----------|
+|May 11|Data Wrangling with pandas|----------|----------|----------|
+|May 18|Intro to Machine Learning|----------|----------|----------|
+|May 25|Visual Analytics with Python|----------|----------|----------|
+|June 1|Data Storytelling with R|----------|----------|----------|

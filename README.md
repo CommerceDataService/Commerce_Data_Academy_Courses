@@ -13,7 +13,6 @@ This repository contains course materials (e.g. slides, code, papers) produced f
 
 #### Courses (2016 Season)
 |DATE | COURSE   |      DESCRIPTION      |  INSTRUCTOR | PRE-REQS |
-|DATE | COURSE   |      DESCRIPTION      |  INSTRUCTOR | PRE-REQS |
 |----------|----------|----------|----------|----------|
 |March 14 |Data Science I: Basics|----------|Rebecca Bilbro|None|
 |March 21|Working with teams (Git + Github)|Learn to work effectively on a data team and never lose your project again! Introduction to version control using Git software and the GitHub website.|Rebecca Bilbro|None|

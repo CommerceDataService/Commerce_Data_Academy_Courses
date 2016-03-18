@@ -1,7 +1,10 @@
 ## Commerce Data Academy
 ###### *A data education initiative of the [Commerce Data Service](https://commerce.gov/dataservice)*
 
-This repository contains course materials (e.g. slides, code, papers) produced for the Commerce Data Academy.
+The Commerce Data Academy was launched by the Commerce Data Service to offer data science, data engineering, and web development training to employees of the US Department of Commerce.  This repository contains the 2016 course schedule as well as course materials (e.g. slides, code, papers) produced for the Commerce Data Academy.
+
+If you are a Commerce employee and have questions about this new data education initiative, feel free to write us at [Data Academy](mailto:DataAcademy@doc.gov).
+
 
 **Note** Please note that in order to view the archived [WebEx recordings](https://www.webex.com/play-webex-recording.html) (.arf) format, you will need to install the appropriate [network recording player](https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Network%20Recording%20Player) for your operating system.
 
@@ -12,18 +15,18 @@ This repository contains course materials (e.g. slides, code, papers) produced f
 
 
 #### Courses (2016 Season)
-|DATE | COURSE   |      DESCRIPTION      |  INSTRUCTOR | PRE-REQS |
+|DATE |COURSE   |DESCRIPTION/      |INSTRUCTOR | PRE-REQS |
 |----------|----------|----------|----------|----------|
-|March 14 |Data Science I: Basics|----------|Rebecca Bilbro|None|
+|March 14 |Data Science I: Basics|Topics Covered: What is data science? What kind of work do data scientists do? How are data products made? What is the data science pipeline?|Rebecca Bilbro|None|
 |March 21|Working with teams (Git + Github)|Learn to work effectively on a data team and never lose your project again! Introduction to version control using Git software and the GitHub website.|Rebecca Bilbro|None|
 |April 4|Intro to Object Oriented Programming|Introduction to 'classes' and 'methods'|Rebecca Bilbro|None|
 |April 6|Using APIs (Intro to REST)|----------|Alison Rowland|None|
-|April 12|Photoshop|Learn the basic principles of design, practice them in photoshop, and walk away with a design by the end of the class.|Radhika Bhatt|None|
-|April 14|Intro to Python|Learn basic syntax and how to get up running with programming with Python|Star Ying|Intro to Object Oriented Programming|
+|April 12|Photoshop|Learn the basic principles of design, practice them in photoshop, and walk away with a design by the end of the class. Topics Covered: Design principles, color theory, adobe programs and their uses, photoshop, ux design, mobile design|Radhika Bhatt|None|
+|April 14|Intro to Python|Learn basic syntax and how to get up running with programming with Python. Topics covered: Basic syntax, list comprehension, packages, looping, pickling |Star Ying|Intro to Object Oriented Programming|
 |April 18|Basic SQL (using sqlite3)|----------|Alison Rowland|Intro to Python|
 |April 20|Building APIs|----------|Alison Rowland|None|
 |April 25|Intro to R|Learn basic syntax and how to get up running with programming with Python|Star Ying|None|
-|April 29|Intro to JavaScript|----------|Natassja Linzau, Mark Brown|None|
+|April 29|Intro to JavaScript|This course will cover Strings, Integers, Floats, and Equality; Loops, Methods, Functions, and jQuery; and give you a sneak peak at Classes and Objects. We will look at real-life examples of each concept.|Natassja Linzau, Mark Brown|None|
 |May 4|Intro to Data Analysis with Python|Given a dataset online, use Python to load the data, compute summary statistics, and investigate correlations.|Rebecca Bilbro|Intro to Data Science, Intro to Python|
 |May 11|Data Wrangling with pandas|Download, explore, and wrangle the Titanic passenger manifest dataset with an eye toward developing a predictive model for survival|Rebecca Bilbro|Intro to Python|
 |May 18|Intro to Machine Learning|Basic introduction to machine learning: what it is, how it works, and how to get started with machine learning in Python using the Scikit-learn API.|Rebecca Bilbro, Star Ying|Intro to Python, Data Wrangling with pandas|

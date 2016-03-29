@@ -56,14 +56,20 @@
     <br>
 
     <p>{{description}}</p>
+    <h5>Topics To Be Covered: </h5>
     <p>{{topics_covered}}</p>
 
     <section class="data-details">
     <h5>Time:</h5>
-    <p>{{original_date}} for {{course_length}}</p>
+    <p>{{original_date}} {{course_length}}</p>
     <h5>Recommended Prerequisite:</h5>
     <p>{{chain 'toUpperCase' 'naCheck' recommended_prerequisite}}</p>
+    <h5>Required Software for this class:</h5>
+    <p>{{chain 'naCheck' software_needed}}</p>
     </section>
+
+    <p>{{ 'link' register}}</p>
+
 
 </script>
 

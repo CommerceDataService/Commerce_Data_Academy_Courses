@@ -1,98 +1,1871 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en" dir="ltr">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <meta name="viewport" content="initial-scale=1" />
+<link rel="shortcut icon" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<meta name="MobileOptimized" content="width" />
+<meta name="description" content="Commerce Data Academy is the educational branch of the Commerce Data Service, a public startup within the Offce of the Secretary of the Department of Commerce." />
+<meta name="HandheldFriendly" content="true" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.commerce.gov/" />
+<link rel="shortlink" href="https://www.commerce.gov/" />
+<meta property="og:site_name" content="Commerce Data Academy" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.commerce.gov/dataservice" />
+<meta property="og:title" content="Commerce Data Academy" />
+<meta property="og:description" content="Commerce Data Academy is the educational branch of the Commerce Data Service, a public startup within the Offce of the Secretary of the Department of Commerce." />
+<meta property="og:image" content="https://www.commerce.gov/sites/commerce.gov/files/open_for_biz-agenda_logo_final.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@CommerceGovData" />
+<meta name="twitter:url" content="https://www.commerce.gov/" />
+<meta name="twitter:title" content="Department of Commerce" />
+<meta name="twitter:description" content="Commerce Data Academy is the educational branch of the Commerce Data Service, a public startup within the Offce of the Secretary of the Department of Commerce." />
+<meta name="twitter:image:src" content="https://www.commerce.gov/sites/commerce.gov/files/open_for_biz-agenda_logo_final.jpg" />
+<meta itemprop="name" content="Commerce Data Service" />
+<meta itemprop="description" content="Commerce Data Academy is the educational branch of the Commerce Data Service, a public startup within the Offce of the Secretary of the Department of Commerce." />
+<meta itemprop="image" content="https://www.commerce.gov/sites/commerce.gov/files/open_for_biz-agenda_logo_final.jpg" />
+<title>Commerce Data Academy | Department of Commerce</title>
+<style>
+@import url("https://www.commerce.gov/modules/system/system.base.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/system/system.menus.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/system/system.messages.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/system/system.theme.css?o1xl7k");
+</style>
+<style>
+@import url("https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.datepicker.min.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/date/date_popup/themes/jquery.timeentry.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/libraries/chosen/chosen.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/chosen/css/chosen-drupal.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?o1xl7k");
+</style>
+<style>
+@import url("https://www.commerce.gov/sites/all/modules/contrib/calendar/css/calendar_multiday.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/comment/comment.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/date/date_api/date.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/date/date_repeat_field/date_repeat_field.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/custom/doc_font_check/doc_font_check.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/field/theme/field.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/fitvids/fitvids.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/node/node.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/search/search.css?o1xl7k");
+@import url("https://www.commerce.gov/modules/user/user.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/views/css/views.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/back_to_top/css/back_to_top.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/accordion_menu/accordion_menu.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/ckeditor/css/ckeditor.css?o1xl7k");
+</style>
+<style>
+@import url("https://www.commerce.gov/sites/all/modules/contrib/ctools/css/ctools.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/libraries/joyride/joyride.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/openlayers_proximity/openlayers_proximity.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/panels/css/panels.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/tagclouds/tagclouds.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/views_slideshow/views_slideshow.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/views_slideshow_galleria/views_slideshow_galleria.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/field_group/field_group.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/views_tree/css/collapsible.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/panels/plugins/layouts/onecol/onecol.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/modules/contrib/menu_minipanels/css/menu_minipanels.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/libraries/datatables-responsive/files/css/datatables.responsive.css?o1xl7k");
+</style>
+<style media="screen">
+@import url("https://www.commerce.gov/sites/all/themes/adaptivetheme/at_core/css/at.layout.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/global.base.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/global.styles.css?o1xl7k");
+</style>
+<style>
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/doc_galleria_theme/galleria.doc.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/fonts/docfont/docfont.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/fonts/source-sans-pro/stylesheet.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/colors.css?o1xl7k");
+@import url("https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/color_scheme.css?o1xl7k");
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/commerce.gov/files/adaptivetheme/doc_theme_files/doc_theme.responsive.layout.css?o1xl7k" media="only screen" />
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/responsive.custom.css?o1xl7k" media="only screen" />
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/responsive.smalltouch.portrait.css?o1xl7k" media="only screen and (max-width:320px)" />
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/responsive.smalltouch.landscape.css?o1xl7k" media="only screen and (min-width:321px) and (max-width:480px)" />
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/responsive.tablet.portrait.css?o1xl7k" media="only screen and (min-width:481px) and (max-width:768px)" />
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/responsive.tablet.landscape.css?o1xl7k" media="only screen and (min-width:769px) and (max-width:1024px)" />
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/all/themes/doc/doc_theme/css/responsive.desktop.css?o1xl7k" media="only screen and (min-width:1025px)" />
 
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100%7CRoboto:400,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap and Font Awesome css -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fullcalendar-2.6.1/fullcalendar.css">
+
+    <!-- Theme stylesheet -->
+    <link href="css/style.green.css" rel="stylesheet" id="theme-stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+
+    <!-- Custom stylesheet - for your changes -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- owl carousel css -->
+
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+
+    <!-- CSS Animations -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Mordernizr -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Responsivity for older IE -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Commerce Data Academy Course List</title>
-  </head>
+    <script src="js/respond.min.js"></script>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+     <!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/commerce.gov/files/css/css_udXK7NFjCeWFYpbg4hVotP895Ke37CcjuKtuYIlI6KQ.css" media="screen" />
+<![endif]-->
 
-        <header>
-          <h1>Commerce Data Academy</h1>
-          <h4>A data education initiative of the <a href=""https://commerce.gov/dataservice>Commerce Data Service</a></h4>
-          <h5>Contact us here: <a href="mailto:DataAcademy@doc.gov">DataAcademy@doc.gov</a></h5>
+<!--[if (lt IE 9)&(!IEMobile 7)]>
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/commerce.gov/files/css/css_-Q9v_dF_etNNTkVm7m2TTyvwk3DelSPjCUB-fEeT-WI.css" media="screen" />
+<![endif]-->
+
+<!--[if (lt IE 8)&(!IEMobile 7)]>
+<link type="text/css" rel="stylesheet" href="https://www.commerce.gov/sites/commerce.gov/files/css/css_jqGE-edCpLqbtdKPnbLhsZyhZz2jYs80i1rmxCFQ5DE.css" media="screen" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/sites/all/themes/doc/doc_theme/scripts/doc-ie78.js"></script>
+<![endif]-->
+<!--[if lt IE 8]>
+<script src="/sites/all/themes/doc/doc_theme/scripts/doc-ie7.js"></script>
+<![endif]-->
+
+<script src="https://www.commerce.gov/sites/all/libraries/modernizr/modernizr.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.1"></script>
+<script src="https://www.commerce.gov/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.commerce.gov/misc/drupal.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/fitvids/jquery.fitvids.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.effects.core.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.datepicker.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/date/date_popup/jquery.timeentry.pack.js?v=1.4.7"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/galleria/galleria-1.3.5.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.effects.highlight.min.js?v=1.8.11"></script>
+<script src="https://www.commerce.gov/misc/ajax.js?v=7.39"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/fitvids/fitvids.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/back_to_top/js/back_to_top.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-collapse.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/joyride/jquery.joyride.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/joyride/modernizr.mq.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/views_slideshow/js/views_slideshow.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/views/js/base.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/misc/progress.js?v=7.39"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/views/js/ajax_view.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/date/date_popup/date_popup.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/views_slideshow_galleria/views_slideshow_galleria.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/custom/doc_filtered_gallery_exclude/doc_filtered_gallery_exclude.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/field_group/field_group.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/ctools/js/jump-menu.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/joyride/inc/js/joyride_context.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/chosen/chosen.jquery.min.js?v=1.1.0"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/views_tree/js/collapsible.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/google_analytics/googleanalytics.js?o1xl7k"></script>
+
+
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-44450756-1"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+
+<script src="https://www.commerce.gov/sites/all/modules/contrib/menu_minipanels/js/menu_minipanels.callbacks.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/table_trash/js/table_trash.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/table_trash/libraries/variants/js/jquery.dataTables.bugfixed.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/table_trash/libraries/variants/js/FixedHeader.bugfixed.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/datatables/extras/FixedColumns/media/js/FixedColumns.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/datatables/extras/TableTools/media/js/TableTools.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/datatables/extras/ColReorder/media/js/ColReorderWithResize.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/table_trash/libraries/variants/js/datatables.responsive.bugfixed.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/datatables-responsive/example/lib/lodash/lodash.min.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/joyride/inc/js/joyride_start_link.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/modules/contrib/chosen/chosen.js?v=1.1.0"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-prevent-multiple-submit.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-show-hide-more.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-scroll.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-media-browser.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-menu-toggle.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-info-toggle.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-tags-toggle.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/jquery.localscroll-1.2.7.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/jquery.scrollTo-1.4.3.1.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-scroll-anchors.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/cufon/cufon-yui.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/cufon/docfont_400.font.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/cufon/docfont.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-chrome-render-bug.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-tabs.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-ui-effects.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-tooltip-help.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-icon-columns.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-hide-empty-fieldset.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-login-button.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-holiday.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-tools-menu.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-responsive-tables.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/themes/adaptivetheme/at_core/scripts/scalefix.js?o1xl7k"></script>
+
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"doc_theme","theme_token":"tWs0tPX3APOhM5oQfngZrRYw0jAzDHWx_bM_ZDhSQ6A","js":{"sites\/all\/modules\/contrib\/menu_minipanels\/js\/menu_minipanels.js":1,"sites\/all\/libraries\/qtip\/jquery.qtip-1.0.0-rc3.min.js":1,"0":1,"1":1,"https:\/\/ips-invite.iperceptions.com\/webValidator.aspx?sdfc=5d169f49-48667-5b0fb26b-53f2-483b-a40b-d984747dd023\u0026lID=1\u0026loc=4Q-WEB2\u0026cD=30\u0026rF=True\u0026iType=1\u0026domainname=1":1,"sites\/all\/modules\/custom\/doc_font_check\/doc_font_check.js":1,"2":1,"3":1,"4":1,"5":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.effects.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"sites\/all\/modules\/contrib\/date\/date_popup\/jquery.timeentry.pack.js":1,"sites\/all\/libraries\/galleria\/galleria-1.3.5.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.effects.highlight.min.js":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.js":1,"sites\/all\/modules\/contrib\/back_to_top\/js\/back_to_top.js":1,"misc\/collapse.js":1,"sites\/all\/libraries\/joyride\/jquery.joyride.js":1,"sites\/all\/libraries\/joyride\/modernizr.mq.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/date\/date_popup\/date_popup.js":1,"sites\/all\/modules\/contrib\/views_slideshow_galleria\/views_slideshow_galleria.js":1,"sites\/all\/modules\/custom\/doc_filtered_gallery_exclude\/doc_filtered_gallery_exclude.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/contrib\/joyride\/inc\/js\/joyride_context.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/jump-menu.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"sites\/all\/modules\/contrib\/views_tree\/js\/collapsible.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"6":1,"sites\/all\/modules\/contrib\/menu_minipanels\/js\/menu_minipanels.callbacks.js":1,"sites\/all\/modules\/contrib\/table_trash\/js\/table_trash.js":1,"sites\/all\/modules\/contrib\/table_trash\/libraries\/variants\/js\/jquery.dataTables.bugfixed.min.js":1,"sites\/all\/modules\/contrib\/table_trash\/libraries\/variants\/js\/FixedHeader.bugfixed.min.js":1,"sites\/all\/libraries\/datatables\/extras\/FixedColumns\/media\/js\/FixedColumns.min.js":1,"sites\/all\/libraries\/datatables\/extras\/TableTools\/media\/js\/TableTools.min.js":1,"sites\/all\/libraries\/datatables\/extras\/ColReorder\/media\/js\/ColReorderWithResize.js":1,"sites\/all\/modules\/contrib\/table_trash\/libraries\/variants\/js\/datatables.responsive.bugfixed.js":1,"sites\/all\/libraries\/datatables-responsive\/example\/lib\/lodash\/lodash.min.js":1,"sites\/all\/modules\/contrib\/joyride\/inc\/js\/joyride_start_link.js":1,"sites\/all\/modules\/contrib\/chosen\/chosen.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-prevent-multiple-submit.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-show-hide-more.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-scroll.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-media-browser.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-menu-toggle.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-info-toggle.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-tags-toggle.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/jquery.localscroll-1.2.7.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/jquery.scrollTo-1.4.3.1.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-scroll-anchors.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/cufon\/cufon-yui.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/cufon\/docfont_400.font.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/cufon\/docfont.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-chrome-render-bug.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-tabs.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-ui-effects.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-tooltip-help.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-icon-columns.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-hide-empty-fieldset.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-login-button.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-holiday.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-tools-menu.js":1,"sites\/all\/themes\/doc\/doc_theme\/scripts\/doc-responsive-tables.js":1,"sites\/all\/themes\/adaptivetheme\/at_core\/scripts\/scalefix.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/jquery.timeentry.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/custom\/doc_font_check\/doc_font_check.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/back_to_top\/css\/back_to_top.css":1,"sites\/all\/modules\/contrib\/accordion_menu\/accordion_menu.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/joyride\/joyride.css":1,"sites\/all\/modules\/contrib\/openlayers_proximity\/openlayers_proximity.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/tagclouds\/tagclouds.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/modules\/contrib\/views_slideshow_galleria\/views_slideshow_galleria.css":1,"sites\/all\/modules\/contrib\/views_tree\/css\/collapsible.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contrib\/menu_minipanels\/css\/menu_minipanels.css":1,"sites\/all\/libraries\/datatables-responsive\/files\/css\/datatables.responsive.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/doc\/doc_theme\/css\/global.base.css":1,"sites\/all\/themes\/doc\/doc_theme\/css\/global.styles.css":1,"sites\/all\/themes\/doc\/doc_theme\/doc_galleria_theme\/galleria.doc.css":1,"sites\/all\/themes\/doc\/doc_theme\/fonts\/docfont\/docfont.css":1,"sites\/all\/themes\/doc\/doc_theme\/fonts\/source-sans-pro\/stylesheet.css":1,"sites\/all\/themes\/doc\/doc_theme\/css\/colors.css":1,"sites\/all\/themes\/doc\/doc_theme\/css\/color_scheme.css":1,"public:\/\/adaptivetheme\/doc_theme_files\/doc_theme.responsive.layout.css":1,"public:\/\/adaptivetheme\/doc_theme_files\/doc_theme.responsive.styles.css":1,"public:\/\/adaptivetheme\/doc_theme_files\/doc_theme.lt-ie9.layout.css":1,"sites\/all\/themes\/doc\/doc_theme\/css\/lt-ie9.css":1,"sites\/all\/themes\/doc\/doc_theme\/css\/lt-ie8.css":1}},"joyrideContext":{"tips_content":"\u003Col id=\u0022joyride-tips-content\u0022 style=\u0022visibility: hidden;\u0022\u003E\n      \u003Cli data-id=\u0022logo\u0022 data-text=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EWelcome to the new look of Commerce.gov. We\u0027ve redesigned the website to make it easier for you to find what you need. Take the tour to see our changes.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-id=\u0022edit-search-block-form--2\u0022 data-text=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EWe\u0027ve made searching easier.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022region-mobile-menu h3.first a.accordion-link:visible\u0022 data-button=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EThese icons will guide you in your search. As you scroll down, they will stay across the top of your page so you are never more than one click away.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022block-region-menu-bar li.first:visible\u0022 data-button=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EThese icons will guide you in your search. As you scroll down, they will stay across the top of your page so you are never more than one click away.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022region-mobile-menu h3.last a.accordion-link:visible\u0022 data-button=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EMissing something? Find a glitch? Let us know.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022block-region-menu-bar li.last:visible\u0022 data-button=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EMissing something? Find a glitch? Let us know.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022region-doc-one-stack-first div.field-name-field-teaser:visible\u0022 data-button=\u0022Next\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EKey statements and announcements are here.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022region-doc-one-stack-second article.view-mode-teaser_three_column div.group_teaser_3col_card:visible\u0022 data-button=\u0022Next\u0022 data-options=\u0022tipLocation:top\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003ESome of our most recent events and blog posts are here.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-class=\u0022view-mode-embedded_gallery:visible\u0022 data-button=\u0022Next\u0022 data-options=\u0022tipLocation:top\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EYou can view some of our latest photos here.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E\r\n\u003Cli data-id=\u0022block-views-doc-orgs-groups-block-1\u0022 data-button=\u0022Close\u0022 data-options=\u0022tipLocation:top\u0022\u003E\r\n  \u003Cp\u003E\u003Cstrong\u003EKnow exactly what you want? Click on the bureau or office.\u003C\/strong\u003E\u003C\/p\u003E\r\n\u003C\/li\u003E  \u003C\/ol\u003E","auto_start":false,"play_once":false},"field_group":{"div":"teaser_link"},"datePopup":{"edit-field-media-date-value-value-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"yy-mm-dd","yearRange":"-3:+3","fromTo":false,"defaultDate":"0y"}},"edit-field-media-date-value-1-value-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"yy-mm-dd","yearRange":"-3:+3","fromTo":false,"defaultDate":"0y"}},"edit-field-media-date-value-value-datepicker-popup-1":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"yy-mm-dd","yearRange":"-3:+3","fromTo":false,"defaultDate":"0y"}},"edit-field-media-date-value-1-value-datepicker-popup-1":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"yy-mm-dd","yearRange":"-3:+3","fromTo":false,"defaultDate":"0y"}}},"urlIsAjaxTrusted":{"\/":true,"https:\/\/search.commerce.gov\/search":true},"viewsSlideshow":{"gallery-panel_pane_3":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowGalleria"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowGalleria"],"pause":["viewsSlideshowControls"],"play":["viewsSlideshowControls"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowGalleria"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"gallery-panel_pane_3_2":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowGalleria"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowGalleria"],"pause":["viewsSlideshowControls"],"play":["viewsSlideshowControls"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowGalleria"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowGalleria":{"views-slideshow-galleria-images-1":{"autoplay":false,"carousel":true,"carouselFollow":true,"carouselSpeed":200,"carouselSteps":"auto","clicknext":false,"debug":false,"dummy":"","easing":"galleria","fullscreenCrop":false,"fullscreenDoubleTap":false,"fullscreenTransition":false,"height":700,"idleMode":true,"idleTime":3000,"imageCrop":false,"imageMargin":0,"imagePan":false,"imagePanSmoothness":12,"imagePosition":"center","keepSource":false,"layerFollow":true,"lightbox":false,"lightboxFadeSpeed":0,"lightboxTransitionSpeed":0,"maxScaleRatio":0,"minScaleRatio":0,"overlayOpacity":0.85,"overlayBackground":"#0b0b0b","pauseOnInteraction":true,"popupLlinks":false,"preload":2,"queue":true,"responsive":true,"show":0,"showInfo":true,"showCounter":true,"showImagenav":true,"swipe":true,"thumbCrop":true,"thumbFit":true,"thumbMargin":0,"thumbQuality":true,"thumbnails":true,"touchTransition":"fade","transition":"slide","transitionSpeed":400,"width":"auto","themePath":"\/sites\/all\/themes\/doc\/doc_theme\/doc_galleria_theme\/galleria.doc.js","dataConfig":"function(a) {\n        return {\n            image: $(a).attr(\u0027href\u0027),\n            title: $(a).parent().siblings(\u0027h2\u0027).html(),\n            description: $(a).parent().siblings(\u0027.gallery-media-description\u0027).html(),\n            link: $(a).parent().siblings(\u0027.gallery-media-link\u0027).html(),\n            video: $(a).parent().siblings(\u0027.gallery-media-embed\u0027).html(),\n            alt: $(a).attr(\u0027data-alt\u0027),\n            thumb: $(a).parent().siblings(\u0027.gallery-media-thumb\u0027).find(\u0027img\u0027).prop(\u0027src\u0027),\n            fid: $(a).parent().siblings(\u0027.gallery-media-fid\u0027).html(),\n        }\n    }"},"views-slideshow-galleria-images-2":{"autoplay":false,"carousel":true,"carouselFollow":true,"carouselSpeed":200,"carouselSteps":"auto","clicknext":false,"debug":false,"dummy":"","easing":"galleria","fullscreenCrop":false,"fullscreenDoubleTap":false,"fullscreenTransition":false,"height":700,"idleMode":true,"idleTime":3000,"imageCrop":false,"imageMargin":0,"imagePan":false,"imagePanSmoothness":12,"imagePosition":"center","keepSource":false,"layerFollow":true,"lightbox":false,"lightboxFadeSpeed":0,"lightboxTransitionSpeed":0,"maxScaleRatio":0,"minScaleRatio":0,"overlayOpacity":0.85,"overlayBackground":"#0b0b0b","pauseOnInteraction":true,"popupLlinks":false,"preload":2,"queue":true,"responsive":true,"show":0,"showInfo":true,"showCounter":true,"showImagenav":true,"swipe":true,"thumbCrop":true,"thumbFit":true,"thumbMargin":0,"thumbQuality":true,"thumbnails":true,"touchTransition":"fade","transition":"slide","transitionSpeed":400,"width":"auto","dataConfig":"function(a) {\n        return {\n            image: $(a).attr(\u0027href\u0027),\n            title: $(a).parent().siblings(\u0027h2\u0027).html(),\n            description: $(a).parent().siblings(\u0027.gallery-media-description\u0027).html(),\n            link: $(a).parent().siblings(\u0027.gallery-media-link\u0027).html(),\n            video: $(a).parent().siblings(\u0027.gallery-media-embed\u0027).html(),\n            alt: $(a).attr(\u0027data-alt\u0027),\n            thumb: $(a).parent().siblings(\u0027.gallery-media-thumb\u0027).find(\u0027img\u0027).prop(\u0027src\u0027),\n            fid: $(a).parent().siblings(\u0027.gallery-media-fid\u0027).html(),\n        }\n    }"}},"back_to_top":{"back_to_top_button_trigger":"100","back_to_top_prevent_on_mobile":0,"back_to_top_prevent_in_admin":0,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top","#attached":{"library":[["system","ui"]]}},"chosen":{"selector":"select:visible\r\nselect:not([name*=\u0027day\u0027],[name*=\u0027year\u0027],[name*=\u0027month\u0027])","minimum_single":5,"minimum_multiple":5,"minimum_width":200,"options":{"disable_search":false,"disable_search_threshold":0,"search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"views_tree_setting":{"doc_orgs_groups":"collapsed"},"fitvids":{"custom_domains":[],"selectors":["body"],"simplifymarkup":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"menuMinipanels":{"panels":{"panel_664":{"position":{"target":"false","target_custom":"","type":"absolute","corner":{"target":"rightBottom","tooltip":"rightTop"}},"show":{"delay":"0","when":{"event":"click"},"effect":{"type":"false","length":"0"}},"hide":{"delay":"60000","effect":{"type":"false","length":"0"}},"style":{"name":"light","width":{"min":"0","max":"500"},"border":{"width":"0","color":"#d3d3d3","radius":"0"}},"mlid":"664"},"panel_1121":{"position":{"target":"false","target_custom":"","type":"absolute","corner":{"target":"bottomRight","tooltip":"rightTop"}},"show":{"delay":"0","when":{"event":"click"},"effect":{"type":"false","length":"0"}},"hide":{"delay":"60000","effect":{"type":"false","length":"0"}},"style":{"name":"light","width":{"min":"0","max":"250"},"border":{"width":"3","color":"#d3d3d3","radius":"0"}},"mlid":"1121"}}},"table_trash":{".table-export-col1 table,table.table-export-col1":{"sDom":"T\u003C\u0022clear\u0022\u003Elfrtip","bFilter":1,"bSort":true,"bPaginate":false,"sPaginationType":"","iDisplayLength":-1,"bLengthChange":false,"bFixedHeader":false,"oTableTools":{"sSwfPath":"\/sites\/all\/libraries\/datatables\/extras\/TableTools\/media\/swf\/copy_csv_xls_pdf.swf"},"iExpandCol":0,"iBreakpointPhone":480,"iBreakpointTablet":768,"aiHideColsTablet":[2,3,4,5,6,7,8],"aiHideColsPhone":[1,2,3,4,5,6,7,8]},".table-export-col2 table, table.table-export-col2":{"sDom":"T\u003C\u0022clear\u0022\u003Elfrtip","bFilter":1,"bSort":true,"bPaginate":false,"sPaginationType":"","iDisplayLength":-1,"bLengthChange":false,"bFixedHeader":false,"oTableTools":{"sSwfPath":"\/sites\/all\/libraries\/datatables\/extras\/TableTools\/media\/swf\/copy_csv_xls_pdf.swf"},"iExpandCol":1,"iBreakpointPhone":480,"iBreakpointTablet":768,"aiHideColsTablet":[2,3,4,5,6,7,8],"aiHideColsPhone":[0,2,3,4,5,6,7,8]}},"adaptivetheme":{"doc_theme":{"layout_settings":{"bigscreen":"three-col-grail","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert","smalltouch_portrait":"one-col-stack"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"only screen and (min-width:769px) and (max-width:1024px)","tablet_portrait":"only screen and (min-width:481px) and (max-width:768px)","smalltouch_landscape":"only screen and (min-width:321px) and (max-width:480px)","smalltouch_portrait":"only screen and (max-width:320px)"}}}});</script>
+<!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. --><script src="/sites/all/modules/contrib/usfedgov_google_analytics/js/Universal-Federated-Analytics-Min.js?agency=DOC" type="text/javascript" id="_fed_an_ua_tag"></script><!--[if lte IE 8]>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/pie/PIE.js?nyvcsn"></script>
+<script src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/scripts/doc-ie-corners.js?nyvcsn"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="https://www.commerce.gov/sites/all/themes/adaptivetheme/at_core/scripts/html5.js?nyvcsn"></script>
+<![endif]-->
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-72 sidebar-second atr-7.x-3.x atv-7.x-3.2 site-name-department-of-commerce section-department-commerce">
+  <div id="skip-link" class="nocontent">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+<div id="">
+  <div id="page" class="page">
+
+    <div id="header-wrapper">
+      <div class="container clearfix">
+        <header id="header" class="clearfix" role="banner">
+
+                      <!-- start: Branding -->
+            <div id="branding" class="branding-elements clearfix circle-logo">
+
+                              <div id="logo">
+                  <div class="inner-logo-wrapper">
+                    <a href="/"><img class="site-logo" src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/logo.png" alt="Department of Commerce" /></a>                  </div>
+                </div>
+
+                              <!-- start: Site name and Slogan hgroup -->
+                <hgroup class="h-group" id="name-and-slogan">
+
+                                      <h1 class="alt-sitename"><a class="active" title="Home page" href="/">Commerce.gov</a></h1>
+
+                                      <h1 id="site-name"><a href="/" title="Home page">Department of Commerce</a></h1>
+
+
+
+                </hgroup><!-- /end #name-and-slogan -->
+
+
+            </div><!-- /end #branding -->
+                  <div class="region region-header"><div class="region-inner clearfix"><nav id="block-system-main-menu" class="block block-system block-menu odd first block-count-1 block-region-header block-main-menu"  role="navigation"><div class="block-inner clearfix">
+      <h2 class="block-title">Main menu</h2>
+
+  <ul class="menu clearfix"><li class="first leaf menu1113 joyride-start-link"><a href="/%23" title="Take a tour of this page" class="icon-binoculars menu-highlight joyride-start-link blink"><div class="menu-link-wrapper"><span>Take a Tour</span></div></a></li>
+<li class="collapsed menu672"><a href="https://www.commerce.gov/about" class="icon-commerce-bldg"><div class="menu-link-wrapper"><span>Learn About Commerce</span></div></a></li>
+<li class="leaf menu1179"><a href="https://www.commerce.gov/topics" class="icon-folder"><div class="menu-link-wrapper"><span>Browse by Topic</span></div></a></li>
+<li class="collapsed menu780"><a href="https://www.commerce.gov/economicindicators" class="icon-bar"><div class="menu-link-wrapper"><span>Find Data</span></div></a></li>
+<li class="leaf menu528"><a href="https://www.commerce.gov/news" class="icon-news"><div class="menu-link-wrapper"><span>Get News</span></div></a></li>
+<li class="expanded menu723"><a href="https://www.commerce.gov/media" class="icon-camera" fonticon="0"><div class="menu-link-wrapper"><span>View Photos & Videos</span></div></a><ul class="menu clearfix"><li class="first leaf menu881"><a href="https://www.commerce.gov/media/photos" class="icon-image"><div class="menu-link-wrapper"><span>Photos</span></div></a></li>
+<li class="leaf menu879"><a href="https://www.commerce.gov/media/videos" class="icon-video"><div class="menu-link-wrapper"><span>Videos</span></div></a></li>
+<li class="last leaf menu880"><a href="https://www.commerce.gov/media/galleries" class="icon-gallery"><div class="menu-link-wrapper"><span>Galleries</span></div></a></li>
+</ul></li>
+<li class="last leaf menu719"><a href="https://www.commerce.gov/form/commercegov-feedback" class="icon-sound" fonticon="0"><div class="menu-link-wrapper"><span>Provide Feedback</span></div></a></li>
+</ul>
+  </div></nav><nav id="block-menu-menu-tools" class="block block-menu even last block-count-2 block-region-header block-menu-tools"  role="navigation"><div class="block-inner clearfix">
+      <h2 class="block-title">Tools</h2>
+
+  <ul class="menu clearfix"><li class="first leaf menu502"><a href="/search" class="search icon-search menu-minipanel menu-minipanel-664"><div class="menu-link-wrapper"><span>Search</span></div></a></li>
+<li class="leaf menu670"><a href="/engage" class="icon-plus menu-minipanel menu-minipanel-1121" fonticon="0"><div class="menu-link-wrapper"><span>Engage</span></div></a></li>
+<li class="last leaf menu696"><a href="http://www.addthis.com/bookmark.php?v=300&amp;winname=addthis&amp;pub=ra-4e384dd26e6802bf" title="Share this page to your favorite social tools" class="icon-export" target="_blank"><div class="menu-link-wrapper"><span>Share</span></div></a></li>
+</ul>
+  </div></nav></div></div>
         </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/CommerceDataService/Commerce_Data_Academy_Courses" class="download-json button"><span>View on GitHub</span></a>
-          <a href="./Courses/" class="download-json button"><span>Courses</span></a>
-          <a href="./Network Recording Player/" class="download-json button"><span>Recordings</span></a>
-        </section>
-
-        <br><br>
-
       </div>
     </div>
 
-<div id="container" class="container">
-<div class="row">
-<section id="main_content">
 
-<script id="data-template" type="text/x-handlebars-template">
-    <h2 id="{{sectid uid}}">{{toUpperCase course_name}}</h2>
-    <h4>Instructor: {{toUpperCase instructor}}</h4>
-    <h4>On-Site TA: {{chain 'toUpperCase' 'naCheck' in_person_ta}}</h4>
-    <h4>WebEx TA: {{chain 'toUpperCase' 'naCheck' webex_ta}}</h4>
+<section data-spy="scroll" data-target="#navigation" data-offset="120">
 
-    <br>
+    <div id="all">
 
-    <p>{{description}}</p>
-    <h5>Topics To Be Covered: </h5>
-    <p>{{topics_covered}}</p>
+        <!-- *** INTRO IMAGE ***
+_________________________________________________________ -->
+        <div id="intro" class="clearfix">
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="carousel-caption">
+                            <span class="introTextSpan"><h1 data-animate="fadeInDown" style="display:inline-grid; font-family: 'Coda', cursive;">Commerce Data Academy</h1></span>
+                            <br>
+                            <span class="introTextSpan"><h2 data-animate="slideInUp" style="font-family: 'Coda', cursive;">Educating and empowering Commerce employees.</h2></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <section class="data-details">
-    <h5>Time:</h5>
-    <p>{{original_date}} {{course_length}}</p>
-    <h5>Recommended Prerequisite:</h5>
-    <p>{{chain 'toUpperCase' 'naCheck' recommended_prerequisite}}</p>
-    <h5>Required Software for this class:</h5>
-    <p>{{chain 'naCheck' software_needed}}</p>
-    </section>
+    <!-- *** WHAT WE OFFER ***
+_________________________________________________________ -->
+        <div class="section text-gradient" id="whatWeOffer">
+            <div class="container">
+                <div class="col-md-12">
+                    <h2 class="title courseTitleStyling" data-animate="fadeInDown">What We Offer</h2>
 
-    <p>{{ 'link' register}}</p>
+                    <div class="row services"> <!-- change this to courses after you copy the styles -->
+
+                        <div class="col-md-3" style="cursor:pointer" id="frontEndIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/code-icon.png" class="design-icons"> 
+                            </div>
+                            <h3 class="heading">Front-End Development</h3>
+                        </div>
+
+                        <div class="col-md-3" style="cursor:pointer"id="backEndIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/gear-icon.png" class="design-icons"> 
+                            </div>
+                            <h3 class="heading">Back-End Development</h3>
+                        </div>
+
+                        <div class="col-md-3" style="cursor:pointer"id="dataScienceIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/graph-icon.png" class="design-icons"> 
+                            </div>
+                            <h3 class="heading">Data Science</h3>
+                        </div>
+
+                        <div class="col-md-3" style="cursor:pointer" id="UXIcon" data-animate="fadeInUp">
+                            <div class="icon" ><img src="images/hand-icon.png" class="design-icons"> 
+                            </div>
+                            <h3 class="heading">UX/UI Design</h3>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row generalFields">
+                        <div class="generalFieldsTitle"><h4> Front-End Development </h4></div>
+                        <div class="generalFieldsDescription"> <p>Front-end development consists of using HTML, CSS, Javascript, and jQuery to give style and functionality to the front-facing part of a website. </p></div>
+                        <div class="generalFieldsKeywords"><h4>Keywords:</h4><p> HTML, CSS, JavaScript, MVC Frameworks, jQuery, React.js, Bootstrap</p></div>
+                        
+                    </div>
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <br>
+
+        <!-- *** REFERENCES IMAGE ***
+_________________________________________________________ -->
+        <div class="section" id="currentCourses">
+            <div class="container">
+                <div class="col-sm-12">
+                <h2 class="title" data-animate="fadeInDown">Current Courses</h2>
+                    <div class="mb20">
+                        <p class="lead" data-animate="fadeInUp">Please click a type of class below to see our upcoming offerings!</p>
+                    </div>
+
+                    <ul id="filter" data-animate="fadeInUp">
+                        <li class="active"><a href="#" data-filter="all">All</a>
+                        </li>
+                        <li><a href="#" data-filter="frontend">Front-End</a>
+                        </li>
+                        <li><a href="#" data-filter="backend">Back-End</a>
+                        </li>
+                        <li><a href="#" data-filter="uxui">UX/UI Design</a>
+                        </li>
+                        <li><a href="#" data-filter="datascience">Data Science</a>
+                        </li>
+                    </ul>
+
+                    <div id="detail">
+
+                        <span class="close">&times;</span> 
+
+                        <div id="detail-slider"></div>
+
+                        <div class="text-center">
+                            <h1 id="detail-title">&nbsp;</h1>
+                        </div>
+
+                        <div id="detail-content"></div>
+
+                    </div>
+                    <!-- Reference detail -->
+
+                    <div id="references-masonry" data-animate="fadeInUp">
+
+                        <div class="reference-item" data-category="datascience">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="Mixit_Panels/5-2-16.png" class="img-responsive" alt="" />
+
+                                </a>
+                                 <!-- Everything in this  <div> is essentially the modal -->
+                                <div class="sr-only reference-description">
+
+                                    <h3 class="reference-title">Intro to R</h3> 
+
+                                    <p class="courseDescription">Introductory course that covers basic R syntax, input and output, and basic statistical analysis.</p>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Topics to Be Covered: </p><p>RStudio, Basic Syntax, Data Frames, Loading and Writing Data, Summary Statistics, Regression</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Recommended Pre-Requisite: </p><p>None</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Date & Time: </p><p>5/2/2016 1:00 - 4:00PM ET</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Instructor: </p><p>Star Ying, Pri Oberoi</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Software Needed: </p><p>R</p></span>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary classRegistrationButton" href="http://goo.gl/forms/Qrzw9eq6pZ" target="_blank"><i class="fa fa-globe"></i> Register</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="datascience">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="Mixit_Panels/5-16-16.png" class="img-responsive" alt="" />
+
+                                </a>
+                                 <!-- Everything in this  <div> is essentially the modal -->
+                                <div class="sr-only reference-description">
+
+                                    <h3 class="reference-title">Intro to Data Analysis with R</h3> 
+
+                                    <p class="courseDescription">Given a dataset online, use R to load the data, compute summary statistics, and investigate correlations.</p>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Topics to Be Covered: </p><p>RData Loading using R, Summary Statistics, Investigative Correlations</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Recommended Pre-Requisite: </p><p>Intro to Data Science, Intro to R</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Date & Time: </p><p>5/17/2016 1:00 - 4:00PM ET</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Instructor: </p><p>Pri Oberoi, Jeff Chen</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Software Needed: </p><p>Git, GitHub, Terminal or Powershell, R, RStudio, Sublime or Atom.io</p></span>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary classRegistrationButton" href="http://goo.gl/forms/Qrzw9eq6pZ" target="_blank"><i class="fa fa-globe"></i> Register</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="datascience">
+                            <div class="reference">
+                               <a href="#">
+                                    <img src="Mixit_Panels/6-1-16.png" class="img-responsive" alt="" />
+
+                                </a>
+                                 <!-- Everything in this  <div> is essentially the modal -->
+                                <div class="sr-only reference-description">
+
+                                    <h3 class="reference-title">Data Storytelling with R</h3> 
+
+                                    <p class="courseDescription">Overview of internal R data visualization tools as well as use of Shiny, Leaflet, and Plotly for interactive visualizations.</p>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Topics to Be Covered: </p><p>GGPlot2, Shiny, Plotly, Leaflet, RMarkDown, RStudio</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Recommended Pre-Requisite: </p><p>Intro to R</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Date & Time: </p><p>6/1/2016 1:00 - 4:00PM ET</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Instructor: </p><p>Star Ying, Pri Oberoi</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Software Needed: </p><p>Git, GitHub, Terminal or Powershell, R, RStudio, Sublime or Atom.io, GGPlot2, Shiny, Plotly, Leaflet, RMarkDown</p></span>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary classRegistrationButton" href="http://goo.gl/forms/Qrzw9eq6pZ" target="_blank"><i class="fa fa-globe"></i> Register</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reference-item" data-category="datascience">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="Mixit_Panels/6-13-16.png" class="img-responsive" alt="" />
+
+                                </a>
+                                 <!-- Everything in this  <div> is essentially the modal -->
+                                <div class="sr-only reference-description">
+
+                                    <h3 class="reference-title">Data Wrangling with Pandas</h3> 
+
+                                    <p class="courseDescription">Download, explore, and wrangle the Titanic passenger manifest dataset with an eye toward developing a predictive model for survival.</p>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Topics to Be Covered: </p><p>Data Exploration, Predictive Modeling</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Recommended Pre-Requisite: </p><p>Intro to Python</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Date & Time: </p><p>6/13/2016 1:00 - 4:00PM ET</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Instructor: </p><p>Rebecca Bilbro</p></span>
+
+                                    <span class="courseSpanTag"><p class="courseListingKeys">Software Needed: </p><p>Git, GitHub, Python, Sublime or Atom.io, Terminal or Powershell</p></span>
+
+                                    <p class="buttons">
+                                        <a class="btn btn-primary classRegistrationButton" href="http://goo.gl/forms/Qrzw9eq6pZ" target="_blank"><i class="fa fa-globe"></i> Register</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
 
-</script>
+                        <div class="reference-item" data-category="frontend">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="Mixit_Panels/front-end-coming-soon.png" class="img-responsive" alt="" />
+                                </a>
+                                
+                                <div class="sr-only reference-description">
+                                    <h3 class="reference-title">Coming Soon!</h3> 
+                                </div>
+                            </div>
+                        </div>
 
-<script id='data-nav' type="text/x-handlebars-template">
-  <li><a href="#{{sectid uid}}">{{course_name}}</a></li>
-</script>
 
-<section>
-<div class="doc-sidebar hidden-sm hidden-xs col-md-3 col-lg-3">
-  <ul id="featured-nav" class="doc-nav nav nav-list featured-nav">
-  </ul>
-</div>
-<div class="col-md-9 col-lg-9 featured-datasets">
-  
-</div>
-</section>
+                        <div class="reference-item" data-category="backend">
+                            <div class="reference">
+                                <a href="#">
+                                    <img src="Mixit_Panels/back-end-coming-soon.png" class="img-responsive" alt="" />
+                                </a>
 
-</section>
-        
-      </div>
+                                <div class="sr-only reference-description">
+                                    <h3 class="reference-title">Coming Soon!</h3> 
+                                </div>
+
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /#references-masonry -->
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
+        <!-- *** WHAT WE OFFER END *** -->
+
+        <hr>
+
+        <!-- *** FAQ START *** -->
+        <div class="section" id="FAQ">
+            <div class="container">
+                <h2 class="title FAQTitle">FAQ</h2>
+                <div class="panel-group" id="accordion">
+                
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">What is the goal of Commerce Data Academy?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse13" class="panel-collapse collapse">
+                    <div class="panel-body">Created by the <a href="https://www.commerce.gov/dataservice/" class="about-link">Commerce Data Service</a>, the goal of the Commerce Data Academy is to help educate and empower employees within the Department of Commerce to make data-driven decisions.</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">What is the Commerce Data Service?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse14" class="panel-collapse collapse">
+                    <div class="panel-body">The Commerce Data Service is a public startup within the Office of the Secretary, tasked with enhancing the contribution of data to the economy and American well-being. It helps the 12 Bureaus of the U.S. Department of Commerce to rapidly create and develop projects to advance the Department's mission. Organized as a new shared services model, the Data Service tackles core infrastructure issues around the Commerce Department and helps enrich human capital.</div>
+                  </div>
+                </div>                
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">How do I register for classes?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">To register, please complete the following Google form: <a href="http://goo.gl/forms/Egs7qV9iox">http://goo.gl/forms/Egs7qV9iox</a> After submitting the form, you will be directed to EventBrite so you can register for the specific courses you are interested in.</div>
+                  </div>
+                </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Are the courses recorded?  Where are they available?  How can we view them?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse">
+                            <div class="panel-body">All classes are recorded and are available within a week following the course date.  The recordings are available at: <a href="https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Courses">
+                            https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Courses </a>
+                            <br>
+                            You will need to have this recording player downloaded to view the courses:
+                            <a href="https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Network%20Recording%20Player">https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Network%20Recording%20Player</a></div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Will any of the classes be given again?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse9" class="panel-collapse collapse">
+                            <div class="panel-body">Although there are no immediate plans for offering these courses again, depending on schedules and resources, we may be able to hold these classes again at a later date.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">How can we meet the prerequisites if we were not able to attend the required course?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse10" class="panel-collapse collapse">
+                            <div class="panel-body">The prerequisite requirements were intended to ensure that our students would derive the greatest benefit from the course.  Depending on the course, the instructor may offer alternative preparation (such as viewing recorded classes) to enhance your learning experience.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Are contractors able to attend these training opportunities?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse">
+                            <div class="panel-body">This training is open to both contractors and employees.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Will I need to download any software for this course?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">Yes. We will send you further details and instructions after registration for this course closer to the start date.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">Is this software supported by DOC?</a>
+                            </h4>
+                        </div>
+                        <div id="collapse12" class="panel-collapse collapse">
+                            <div class="panel-body">The current set of free productivity tools used in the Commerce Data Academy courses are allowed by DOC guidance. Your Bureau’s CIO may impose more strict guidelines.  Please check with them prior to installing the software.</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What are my transport/parking options getting to the event</a>
+                        </h4>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">There is parking available at the Ronald Reagan building.</div>
+                      </div>
+                    </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Where can I contact the organizer with any questions?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">Prior to the event, please feel free to send us an email at <a href="mailTo:dataacademy@doc.gov">DataAcademy@doc.gov</a>. If you have any problems the day-of please feel free to call Pam Moulder at 202-482-5997 or the Data Academy team at 202-482-2884</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Can I update my registration information?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">Yes. Please click the Register button and set-up an account at <a href="www.eventbrite.com">Eventbrite.com</a> where you can make changes to your registration and tickets.</div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">What are the directions to the Commerce Law Library?</a>
+                    </h4>
+                  </div>
+                  <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+
+                        <span>
+                        <p> Directions from within HCHB </p>
+                        The Commerce Research Library has two entrances and is located in northwest corner of the building on the 1st floor, directly below the gym.  The entrance at Room 1894 can be accessed via the 8th corridor elevator at the north end of the building.  The second entrance at Room 1984 and can be accessed from the 6th corridor elevator. 
+                        </span>
+                        
+                        <span>
+                        <p> Directions from outside of HCHB (DOC staff only) </p>
+                        HCHB is located at 1401 Constitution Avenue, NW and is easily accessible from two metro stations, Federal Triangle & Metro Center.  The closest entrance to the library is on the corner of 14th & Pennsylvania Ave. Check in at that entrance with the guards, then follow the red signs to the Commerce Research Library.  Questions?  Call us at 202-482-1154.  Bringing a visitor?  See full directions on our website.
+                        </span>
+                    </div>
+                  
+                  </div>
+                </div>
+            </div> 
+        </div> <!-- container div --> 
+        </div>
+
+        <hr>
+
+        <!-- *** CONTACT ***
+_________________________________________________________ -->
+
+        <div class="section contact" id="contact" data-animate="bounceIn">
+            <div class="container">
+                <div class="col-md-12">
+
+
+                    <h2 class="title">Contact Us</h2>
+
+                    <div class="row">
+
+                        <div class="col-md-11 col-md-offset-1">
+                            <div style="display: inline-block; vertical-align: middle">
+                                <a href="mailto:DataAcademy@doc.gov"><p style="color:#002952">Please send an email to:</p>
+                                <i class="fa fa-envelope-o fa-3x wow bounceIn envelopeIcon" data-wow-delay=".1s"></i>
+                                <h4><font color="#002952" font-size="130%"><strong>DataAcademy@doc.gov</strong></font></a></h4>
+                            </div>
+
+                            <div  style="display: inline-block; text-align: center">
+                                <a href="http://www.commerce.gov/dataservice"><img alt="Commerce Data Service" style="height: 300px;" id="cdcthumbnail" src="images/cdc-temp-logo-v2.png" ></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.12 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.section -->
+
     </div>
-  </body>
+    <!-- /#all -->
 
-  <script src="js/lib/handlebars-v3.0.1.js" type="text/javascript"></script>
-  <script src="js/main.js" type="text/javascript"></script>
+</section>
+
+
+    <div id="tertiary-content-wrapper" class="tertiaryContentWrapperStyling">
+    <div class="container clearfix">
+        <div class="region region-tertiary-content">
+            <div class="region-inner clearfix">
+                <section id="block-views-doc-orgs-groups-block-1" class="block block-views odd first block-count-4 block-region-tertiary-content block-doc-orgs-groups-block-1">
+                    <div class="block-inner clearfix">
+                        <h2 class="block-title">Bureaus &amp; Offices</h2>
+
+                        <div class="block-content content">
+                            <div class="view view-doc-orgs-groups view-id-doc_orgs_groups view-display-id-block_1 org-list collapse-level-2 view-dom-id-800fad236c953b922a757b624478c226">
+                                <div class="view-header">
+                                    <p>Search by organization name or browse the tree below</p>
+                                </div>
+
+
+                                <div class="attachment attachment-before">
+                                    <div class="view view-doc-orgs-groups view-id-doc_orgs_groups view-display-id-attachment_1">
+
+
+
+                                        <div class="view-content">
+                                            <form method="post" id="ctools-jump-menu" accept-charset="UTF-8">
+                                                <div>
+                                                    <div class="form-item form-type-select form-item-jump">
+                                                        <select class="ctools-jump-menu-select ctools-jump-menu-change form-select " id="edit-jump" name="jump">
+                    <option value="" selected="selected">- Type here to search -</option>
+                        <option value="https://www.commerce.gov/bureau-economic-analysis">  
+                                      Bureau of Economic Analysis    
+                                      (BEA)  </option><option value="https://www.commerce.gov/bureau-industry-and-security">  
+                                      Bureau of Industry and Security    
+                                      (BIS)  </option><option value="https://www.commerce.gov/os/center-faith-based-and-neighborhood-partnerships">  
+                                      Center for Faith-based and Neighborhood Partnerships    
+                                        </option><option value="https://www.commerce.gov/department-commerce">  
+                                      Department of Commerce    
+                                        </option><option value="https://www.commerce.gov/economic-development-administration">  
+                                      Economic Development Administration    
+                                      (EDA)  </option><option value="https://www.commerce.gov/economics-and-statistics-administration">  
+                                      Economics and Statistics Administration    
+                                      (ESA)  </option><option value="https://www.commerce.gov/ntia/first-responder-network-authority-firstnet">  
+                                      First Responder Network Authority (FirstNet)    
+                                        </option><option value="https://www.commerce.gov/international-trade-administration">  
+                                      International Trade Administration    
+                                      (ITA)  </option><option value="https://www.commerce.gov/minority-business-development-agency">  
+                                      Minority Business Development Agency    
+                                      (MBDA)  </option><option value="https://www.commerce.gov/national-institute-standards-and-technology">  
+                                      National Institute of Standards and Technology    
+                                      (NIST)  </option><option value="https://www.commerce.gov/national-oceanic-and-atmospheric-administration">  
+                                      National Oceanic and Atmospheric Administration    
+                                      (NOAA)  </option><option value="https://www.commerce.gov/national-technical-information-service">  
+                                      National Technical Information Service    
+                                      (NTIS)  </option><option value="https://www.commerce.gov/national-telecommunications-and-information-administration">  
+                                      National Telecommunications and Information Administration    
+                                      (NTIA)  </option><option value="https://www.commerce.gov/os/olia/native-american-affairs">  
+                                      Native American Affairs    
+                                        </option><option value="https://www.commerce.gov/os/office-business-liaison">  
+                                      Office of Business Liaison    
+                                      (OBL)  </option><option value="https://www.commerce.gov/os/office-executive-secretariat">  
+                                      Office of Executive Secretariat    
+                                        </option><option value="https://www.commerce.gov/os/office-general-counsel">  
+                                      Office of General Counsel    
+                                      (OGC)  </option><option value="https://www.commerce.gov/os/office-inspector-general-oig">  
+                                      Office of Inspector General (OIG)    
+                                        </option><option value="https://www.commerce.gov/os/office-legislative-and-intergovernmental-affairs">  
+                                      Office of Legislative and Intergovernmental Affairs    
+                                      (OLIA)  </option><option value="https://www.commerce.gov/os/office-policy-and-strategic-planning">  
+                                      Office of Policy and Strategic Planning    
+                                      (OPSP)  </option><option value="https://www.commerce.gov/os/office-public-affairs">  
+                                      Office of Public Affairs    
+                                      (OPA)  </option><option value="https://www.commerce.gov/os/office-chief-financial-officer-and-assistant-secretary-administration">  
+                                      Office of the Chief Financial Officer and Assistant Secretary for Administration    
+                                      (CFO/ASA)  </option><option value="https://www.commerce.gov/os/office-chief-information-officer">  
+                                      Office of the Chief Information Officer    
+                                      (OCIO)  </option><option value="https://www.commerce.gov/os/office-chief-staff">  
+                                      Office of the Chief of Staff    
+                                        </option><option value="https://www.commerce.gov/os/office-deputy-secretary">  
+                                      Office of the Deputy Secretary    
+                                        </option><option value="https://www.commerce.gov/office-secretary">  
+                                      Office of the Secretary    
+                                      (OS)  </option><option value="https://www.commerce.gov/os/office-white-house-liaison">  
+                                      Office of White House Liaison    
+                                        </option><option value="https://www.commerce.gov/os/shared-services">  
+                                      Shared Services    
+                                        </option><option value="https://www.commerce.gov/us-census-bureau">  
+                                      U.S. Census Bureau    
+                                      (Census)  </option><option value="https://www.commerce.gov/united-states-patent-and-trademark-office">  
+                                      United States Patent and Trademark Office    
+                                      (USPTO)  
+                                </option> </select>
+
+                                                    </div>
+                                                    <input class="ctools-jump-menu-button ctools-jump-menu-hide form-submit" type="submit" id="edit-go" name="op" value="Go">
+
+                                                    <input type="hidden" name="form_build_id" value="form-C7giFQx_hnMYMM9T9jVCeX0mNLCbBkuxqAcs42Ls_qM">
+                                                    <input type="hidden" name="form_id" value="ctools_jump_menu">
+                                                </div>
+                                            </form>
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+
+                                <div class="view-content">
+                                    <div class="item-list">
+                                        <ul>
+                                            <li class="even first">
+                                                <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/shared-services">Shared Services</a></span> </span>
+                                                <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                            </li>
+                                            <li class="odd last views_tree_parent views_tree_collapsed">
+                                                <div class="views_tree_link views_tree_link_collapsed"><a href="https://www.commerce.gov/office-secretary#" class="views_tree-processed">Operation</a></div>
+                                                <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/department-commerce">Department of Commerce</a></span> </span>
+                                                <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                <div class="item-list" style="display: none;">
+                                                    <ul>
+                                                        <li class="even first">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/bureau-economic-analysis">Bureau of Economic Analysis</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(BEA)</span> </span>
+                                                        </li>
+                                                        <li class="odd">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/bureau-industry-and-security">Bureau of Industry and Security</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(BIS)</span> </span>
+                                                        </li>
+                                                        <li class="even">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/us-census-bureau">U.S. Census Bureau</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(Census)</span> </span>
+                                                        </li>
+                                                        <li class="odd">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/economic-development-administration">Economic Development Administration</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(EDA)</span> </span>
+                                                        </li>
+                                                        <li class="even">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/economics-and-statistics-administration">Economics and Statistics Administration</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(ESA)</span> </span>
+                                                        </li>
+                                                        <li class="odd">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/international-trade-administration">International Trade Administration</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(ITA)</span> </span>
+                                                        </li>
+                                                        <li class="even">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/minority-business-development-agency">Minority Business Development Agency</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(MBDA)</span> </span>
+                                                        </li>
+                                                        <li class="odd">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/national-institute-standards-and-technology">National Institute of Standards and Technology</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(NIST)</span> </span>
+                                                        </li>
+                                                        <li class="even">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/national-oceanic-and-atmospheric-administration">National Oceanic and Atmospheric Administration</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(NOAA)</span> </span>
+                                                        </li>
+                                                        <li class="odd">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/national-technical-information-service">National Technical Information Service</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(NTIS)</span> </span>
+                                                        </li>
+                                                        <li class="even views_tree_parent views_tree_collapsed">
+                                                            <div class="views_tree_link views_tree_link_collapsed"><a href="https://www.commerce.gov/office-secretary#" class="views_tree-processed">Operation</a></div>
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/national-telecommunications-and-information-administration">National Telecommunications and Information Administration</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(NTIA)</span> </span>
+                                                            <div class="item-list" style="display: none;">
+                                                                <ul>
+                                                                    <li class="even first last">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/ntia/first-responder-network-authority-firstnet">First Responder Network Authority (FirstNet)</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="odd">
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/united-states-patent-and-trademark-office">United States Patent and Trademark Office</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(USPTO)</span> </span>
+                                                        </li>
+                                                        <li class="even last views_tree_parent views_tree_collapsed">
+                                                            <div class="views_tree_link views_tree_link_collapsed"><a href="https://www.commerce.gov/office-secretary#" class="views_tree-processed">Operation</a></div>
+                                                            <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/office-secretary" class="">Office of the Secretary</a></span> </span>
+                                                            <span class="views-field views-field-field-acronym">        <span class="field-content">(OS)</span> </span>
+                                                            <div class="item-list" style="display: none;">
+                                                                <ul>
+                                                                    <li class="even first">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-chief-staff">Office of the Chief of Staff</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                    <li class="odd">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-deputy-secretary">Office of the Deputy Secretary</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                    <li class="even">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-general-counsel">Office of General Counsel</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(OGC)</span> </span>
+                                                                    </li>
+                                                                    <li class="odd">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-executive-secretariat">Office of Executive Secretariat</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                    <li class="even">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-public-affairs">Office of Public Affairs</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(OPA)</span> </span>
+                                                                    </li>
+                                                                    <li class="odd views_tree_parent views_tree_collapsed">
+                                                                        <div class="views_tree_link views_tree_link_collapsed"><a href="https://www.commerce.gov/office-secretary#" class="views_tree-processed">Operation</a></div>
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-legislative-and-intergovernmental-affairs">Office of Legislative and Intergovernmental Affairs</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(OLIA)</span> </span>
+                                                                        <div class="item-list" style="display: none;">
+                                                                            <ul>
+                                                                                <li class="even first last">
+                                                                                    <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/olia/native-american-affairs">Native American Affairs</a></span> </span>
+                                                                                    <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="even">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-business-liaison">Office of Business Liaison</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(OBL)</span> </span>
+                                                                    </li>
+                                                                    <li class="odd">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-policy-and-strategic-planning">Office of Policy and Strategic Planning</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(OPSP)</span> </span>
+                                                                    </li>
+                                                                    <li class="even">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-white-house-liaison">Office of White House Liaison</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                    <li class="odd">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/center-faith-based-and-neighborhood-partnerships">Center for Faith-based and Neighborhood Partnerships</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                    <li class="even">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-inspector-general-oig">Office of Inspector General (OIG)</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content"></span> </span>
+                                                                    </li>
+                                                                    <li class="odd">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-chief-financial-officer-and-assistant-secretary-administration">Office of the Chief Financial Officer and Assistant Secretary for Administration</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(CFO/ASA)</span> </span>
+                                                                    </li>
+                                                                    <li class="even last">
+                                                                        <span class="views-field views-field-name">        <span class="field-content"><a href="https://www.commerce.gov/os/office-chief-information-officer">Office of the Chief Information Officer</a></span> </span>
+                                                                        <span class="views-field views-field-field-acronym">        <span class="field-content">(OCIO)</span> </span>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <nav id="block-menu-block-1" class="block block-menu-block no-title even last block-count-5 block-region-tertiary-content block-1" role="navigation">
+                    <div class="block-inner clearfix">
+
+                        <div class="block-content content">
+                            <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+                                <ul class="menu clearfix">
+                                    <li class="first leaf menu-mlid-1113 menu1113 joyride-start-link">
+                                        <a href="https://www.commerce.gov/%23" title="Take a tour of this page" class="icon-binoculars menu-highlight joyride-start-link blink">
+                                            <div class="menu-link-wrapper"><span>Take a Tour</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="expanded menu-mlid-672 menu672">
+                                        <a href="https://www.commerce.gov/about" class="icon-commerce-bldg">
+                                            <div class="menu-link-wrapper"><span>Learn About Commerce</span></div>
+                                        </a>
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf has-children menu-mlid-720 menu720">
+                                                <a href="https://www.commerce.gov/page/about-commerce" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>About Commerce</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-938 menu938">
+                                                <a href="https://www.commerce.gov/page/doc-organizational-chart" title="DOC Organizational Chart" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Organizational Chart</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-768 menu768">
+                                                <a href="https://www.commerce.gov/directory/leadership" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Commerce Leadership</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-842 menu842">
+                                                <a href="https://www.commerce.gov/about/bureaus-and-offices">
+                                                    <div class="menu-link-wrapper"><span>Bureaus and Offices</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-1021 menu1021">
+                                                <a href="http://www.commerce.gov/about-commerce/services" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Commerce Services &amp; Offices Near You</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-766 menu766">
+                                                <a href="https://www.commerce.gov/page/grant-and-contract-opportunities-commerce" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Grant and Contract Opportunities</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-767 menu767">
+                                                <a href="https://www.commerce.gov/page/career-opportunities-and-internships" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Career Opportunities and Internships</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-939 menu939">
+                                                <a href="https://www.commerce.gov/page/commerce-history" title="Listing of Commerce Secretaries" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Commerce History</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-765 menu765">
+                                                <a href="https://www.commerce.gov/page/frequently-asked-questions" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Frequently Asked Questions</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu-mlid-841 menu841">
+                                                <a href="https://www.commerce.gov/page/contact-us" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Contact Us</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="leaf menu-mlid-1179 menu1179">
+                                        <a href="https://www.commerce.gov/topics" class="icon-folder">
+                                            <div class="menu-link-wrapper"><span>Browse by Topic</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="expanded menu-mlid-780 menu780">
+                                        <a href="https://www.commerce.gov/economicindicators" class="icon-bar">
+                                            <div class="menu-link-wrapper"><span>Find Data</span></div>
+                                        </a>
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu-mlid-2565 menu2565">
+                                                <a href="https://www.commerce.gov/dataservice/">
+                                                    <div class="menu-link-wrapper"><span>Commerce Data Service</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-1199 menu1199">
+                                                <a href="https://data.commerce.gov/">
+                                                    <div class="menu-link-wrapper"><span>Data Set Catalog </span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-788 menu788">
+                                                <a href="https://www.commerce.gov/page/digital-strategy" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Digital Strategy</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu-mlid-1022 menu1022">
+                                                <a href="https://www.commerce.gov/page/commerce-developer-program" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Information for Developers</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="expanded menu-mlid-528 menu528">
+                                        <a href="https://www.commerce.gov/news" class="icon-news">
+                                            <div class="menu-link-wrapper"><span>Get News</span></div>
+                                        </a>
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu-mlid-782 menu782">
+                                                <a href="https://www.commerce.gov/news/press-releases" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Press Releases</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-783 menu783">
+                                                <a href="https://www.commerce.gov/news/the-commerce-blog" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>The Commerce Blog</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-785 menu785">
+                                                <a href="https://www.commerce.gov/news/secretary-speeches" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Secretary Speeches</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-784 menu784">
+                                                <a href="https://www.commerce.gov/news/deputy-secretary-speeches" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Deputy Secretary Speeches</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-786 menu786">
+                                                <a href="https://www.commerce.gov/news/opinion-editorials" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Opinion Editorials</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-787 menu787">
+                                                <a href="https://www.commerce.gov/news/fact-sheets" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Fact Sheets</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu-mlid-1019 menu1019">
+                                                <a href="https://www.commerce.gov/page/media-contacts" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Media Contacts</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="expanded menu-mlid-723 menu723">
+                                        <a href="https://www.commerce.gov/media" class="icon-camera" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>View Photos &amp; Videos</span></div>
+                                        </a>
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu-mlid-881 menu881">
+                                                <a href="https://www.commerce.gov/media/photos" class="icon-image">
+                                                    <div class="menu-link-wrapper"><span>Photos</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu-mlid-879 menu879">
+                                                <a href="https://www.commerce.gov/media/videos" class="icon-video">
+                                                    <div class="menu-link-wrapper"><span>Videos</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu-mlid-880 menu880">
+                                                <a href="https://www.commerce.gov/media/galleries" class="icon-gallery">
+                                                    <div class="menu-link-wrapper"><span>Galleries</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="last leaf menu-mlid-719 menu719">
+                                        <a href="https://www.commerce.gov/form/commercegov-feedback" class="icon-sound" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Provide Feedback</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer-wrapper" class="footerWrapperStyling">
+    <div class="container clearfix">
+        <footer id="footer" class="clearfix" role="contentinfo">
+            <div class="region region-footer regionFooterStyling">
+                <div class="region-inner clearfix">
+                    <nav id="block-menu-menu-footer" class="block block-menu odd first last block-count-6 block-region-footer block-menu-footer" role="navigation">
+                        <div class="block-inner clearfix">
+                            <h2 class="block-title">Footer</h2>
+
+                            <div class="block-content content blockContentStyling">
+                                <ul class="menu clearfix">
+                                    <li class="first leaf menu1180">
+                                        <a href="http://www.osec.doc.gov/ofm/OFM_Publications.html">
+                                            <div class="menu-link-wrapper"><span>Agency Financial Report</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu826">
+                                        <a href="https://www.commerce.gov/page/comment-policy" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Comment Policy</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu779">
+                                        <a href="https://www.commerce.gov/page/commerce-archive" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Commerce Archive</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu771">
+                                        <a href="http://www.osec.doc.gov/ocr/EEOPolicy.html">
+                                            <div class="menu-link-wrapper"><span>EEO Policy</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu778">
+                                        <a href="http://www.osec.doc.gov/omo/FOIA/FOIAWEBSITE.htm">
+                                            <div class="menu-link-wrapper"><span>FOIA</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu770">
+                                        <a href="http://www.usa.gov/gobiernousa/">
+                                            <div class="menu-link-wrapper"><span>GobiernoUSA.gov</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu775">
+                                        <a href="http://www.osec.doc.gov/ofm/Improper_Payments.html">
+                                            <div class="menu-link-wrapper"><span>Improper Payments</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu773">
+                                        <a href="http://ocio.os.doc.gov/ITPolicyandPrograms/Information_Quality/index.htm">
+                                            <div class="menu-link-wrapper"><span>Information Quality</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu772">
+                                        <a href="http://www.oig.doc.gov/">
+                                            <div class="menu-link-wrapper"><span>Inspector General</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu774">
+                                        <a href="http://www.osec.doc.gov/ocr/nofear/nofear.htm">
+                                            <div class="menu-link-wrapper"><span>No Fear Act</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu824">
+                                        <a href="https://www.commerce.gov/page/department-commerce-plain-language" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>PLAIN Language</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu825">
+                                        <a href="https://www.commerce.gov/page/privacy-policy" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Privacy Policy</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu777">
+                                        <a href="http://www.recovery.gov/">
+                                            <div class="menu-link-wrapper"><span>Recovery.gov</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu776">
+                                        <a href="http://www.usa.gov/">
+                                            <div class="menu-link-wrapper"><span>USA.gov</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu1181">
+                                        <a href="http://www.oig.doc.gov/Pages/Hotline.aspx">
+                                            <div class="menu-link-wrapper"><span>Whistleblower Protection</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="last leaf menu769">
+                                        <a href="http://www.whitehouse.gov/">
+                                            <div class="menu-link-wrapper"><span>Whitehouse.gov</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div id="mobile-menu-wrapper">
+    <h2 class="menu-toggle-btn">
+          <a class="search" href="https://www.commerce.gov/office-secretary#"><span class="fonticon icon-search" aria-hidden="true"></span><span class="title">Search</span></a>
+          <a class="menu" href="https://www.commerce.gov/office-secretary#"><span class="fonticon icon-menu" aria-hidden="true"></span><span class="title">Menu</span></a>
+        </h2>
+    <div id="mobile-search" class="mobile-menu mobile-menu-toggle">
+        <form class="search-form" action="https://search.commerce.gov/search" method="get" id="search-form--2" accept-charset="UTF-8">
+            <div>
+                <div class="container-inline form-wrapper" id="edit-basic--2">
+                    <div class="form-item form-type-textfield form-item-keys">
+                        <label for="edit-keys--2">Enter your keywords </label>
+                        <input class="usagov-search-autocomplete ui-autocomplete-input ui-corner-all form-text" autocomplete="off" type="text" name="query" id="edit-keys--2" value="" size="40" maxlength="255" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                    </div>
+                    <input type="submit" id="edit-submit--4" name="op" value="Search" class="form-submit"></div><input type="hidden" name="affiliate" value="commerce.gov">
+                <input type="image" id="edit-submit--5" name="submit" src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/images/button-search.png" class="form-submit"></div>
+        </form>
+    </div>
+    <div id="mobile-menu" class="mobile-menu mobile-menu-toggle">
+        <div class="container">
+            <div class="region region-mobile-menu">
+                <div class="region-inner clearfix">
+                    <section id="block-accordion-menu-1" class="block block-accordion-menu odd first block-count-7 block-region-mobile-menu block-1">
+                        <div class="block-inner clearfix">
+                            <h2 class="block-title"><none></none></h2>
+
+                            <div class="block-content content">
+                                <div class="accordion-menu-wrapper accordion-menu-1 accordion-menu-name-menu-1 accordion-menu-source-main-menu ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                                    <h3 class="accordion-header accordion-header-1 first no-children odd menu-mlid-1113 joyride-start-link ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon icon-minus"></span><a href="https://www.commerce.gov/%23" title="Take a tour of this page" class="icon-binoculars menu-highlight joyride-start-link blink accordion-link">Take a Tour</a></h3>
+                                    <div class="accordion-content-1 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;"></div>
+                                    <h3 class="accordion-header accordion-header-2 has-children even menu-mlid-672 ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon icon-plus"></span><a href="https://www.commerce.gov/about" class="icon-commerce-bldg accordion-link">Learn About Commerce</a></h3>
+                                    <div class="accordion-content-2 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;">
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu720">
+                                                <a href="https://www.commerce.gov/page/about-commerce" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>About Commerce</span></div>
+                                                </a>
+                                                <ul class="menu clearfix">
+                                                    <li class="first leaf menu1061">
+                                                        <a href="https://www.commerce.gov/page/data">
+                                                            <div class="menu-link-wrapper"><span>Data</span></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="leaf menu1060">
+                                                        <a href="https://www.commerce.gov/page/environment">
+                                                            <div class="menu-link-wrapper"><span>Environment</span></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="leaf menu1059">
+                                                        <a href="https://www.commerce.gov/page/innovation">
+                                                            <div class="menu-link-wrapper"><span>Innovation</span></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="leaf menu2286">
+                                                        <a href="https://www.commerce.gov/page/operational-excellence" title="Operational Excellence">
+                                                            <div class="menu-link-wrapper"><span>Operational Excellence</span></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="last leaf menu1058">
+                                                        <a href="https://www.commerce.gov/page/trade-and-investment">
+                                                            <div class="menu-link-wrapper"><span>Trade and Investment</span></div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="leaf menu938">
+                                                <a href="https://www.commerce.gov/page/doc-organizational-chart" title="DOC Organizational Chart" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Organizational Chart</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu768">
+                                                <a href="https://www.commerce.gov/directory/leadership" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Commerce Leadership</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu842">
+                                                <a href="https://www.commerce.gov/about/bureaus-and-offices">
+                                                    <div class="menu-link-wrapper"><span>Bureaus and Offices</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu1021">
+                                                <a href="http://www.commerce.gov/about-commerce/services" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Commerce Services &amp; Offices Near You</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu766">
+                                                <a href="https://www.commerce.gov/page/grant-and-contract-opportunities-commerce" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Grant and Contract Opportunities</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu767">
+                                                <a href="https://www.commerce.gov/page/career-opportunities-and-internships" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Career Opportunities and Internships</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu939">
+                                                <a href="https://www.commerce.gov/page/commerce-history" title="Listing of Commerce Secretaries" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Commerce History</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu765">
+                                                <a href="https://www.commerce.gov/page/frequently-asked-questions" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Frequently Asked Questions</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu841">
+                                                <a href="https://www.commerce.gov/page/contact-us" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Contact Us</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="accordion-header accordion-header-3 no-children odd menu-mlid-1179 ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon icon-minus"></span><a href="https://www.commerce.gov/topics" class="icon-folder accordion-link">Browse by Topic</a></h3>
+                                    <div class="accordion-content-3 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;"></div>
+                                    <h3 class="accordion-header accordion-header-4 has-children even menu-mlid-780 ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon icon-plus"></span><a href="https://www.commerce.gov/economicindicators" class="icon-bar accordion-link">Find Data</a></h3>
+                                    <div class="accordion-content-4 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;">
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu2565">
+                                                <a href="https://www.commerce.gov/dataservice/">
+                                                    <div class="menu-link-wrapper"><span>Commerce Data Service</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu1199">
+                                                <a href="https://data.commerce.gov/">
+                                                    <div class="menu-link-wrapper"><span>Data Set Catalog </span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu788">
+                                                <a href="https://www.commerce.gov/page/digital-strategy" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Digital Strategy</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu1022">
+                                                <a href="https://www.commerce.gov/page/commerce-developer-program" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Information for Developers</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="accordion-header accordion-header-5 has-children odd menu-mlid-528 ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon icon-plus"></span><a href="https://www.commerce.gov/news" class="icon-news accordion-link">Get News</a></h3>
+                                    <div class="accordion-content-5 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;">
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu782">
+                                                <a href="https://www.commerce.gov/news/press-releases" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Press Releases</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu783">
+                                                <a href="https://www.commerce.gov/news/the-commerce-blog" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>The Commerce Blog</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu785">
+                                                <a href="https://www.commerce.gov/news/secretary-speeches" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Secretary Speeches</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu784">
+                                                <a href="https://www.commerce.gov/news/deputy-secretary-speeches" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Deputy Secretary Speeches</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu786">
+                                                <a href="https://www.commerce.gov/news/opinion-editorials" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Opinion Editorials</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu787">
+                                                <a href="https://www.commerce.gov/news/fact-sheets" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Fact Sheets</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu1019">
+                                                <a href="https://www.commerce.gov/page/media-contacts" fonticon="0">
+                                                    <div class="menu-link-wrapper"><span>Media Contacts</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="accordion-header accordion-header-6 has-children even menu-mlid-723 ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon icon-plus"></span><a href="https://www.commerce.gov/media" class="icon-camera accordion-link" fonticon="0">View Photos &amp; Videos</a></h3>
+                                    <div class="accordion-content-6 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;">
+                                        <ul class="menu clearfix">
+                                            <li class="first leaf menu881">
+                                                <a href="https://www.commerce.gov/media/photos" class="icon-image">
+                                                    <div class="menu-link-wrapper"><span>Photos</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="leaf menu879">
+                                                <a href="https://www.commerce.gov/media/videos" class="icon-video">
+                                                    <div class="menu-link-wrapper"><span>Videos</span></div>
+                                                </a>
+                                            </li>
+                                            <li class="last leaf menu880">
+                                                <a href="https://www.commerce.gov/media/galleries" class="icon-gallery">
+                                                    <div class="menu-link-wrapper"><span>Galleries</span></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="accordion-header accordion-header-7 last no-children odd menu-mlid-719 ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon icon-minus"></span><a href="https://www.commerce.gov/form/commercegov-feedback" class="icon-sound accordion-link" fonticon="0">Provide Feedback</a></h3>
+                                    <div class="accordion-content-7 ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="display: none;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <nav id="block-menu-menu-mobile-links" class="block block-menu even block-count-8 block-region-mobile-menu block-menu-mobile-links" role="navigation">
+                        <div class="block-inner clearfix">
+                            <h2 class="block-title">Mobile Links</h2>
+
+                            <div class="block-content content">
+                                <ul class="menu clearfix">
+                                    <li class="first leaf menu695">
+                                        <a href="http://dir.commerce.gov/" class="active icon-users">
+                                            <div class="menu-link-wrapper"><span>Person Finder</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="last leaf menu1202">
+                                        <a href="https://data.commerce.gov/" class="active icon-pie">
+                                            <div class="menu-link-wrapper"><span>Search over 40,000 Datasets</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <nav id="block-menu-menu-engage-follow" class="block block-menu odd last block-count-9 block-region-mobile-menu block-menu-engage-follow" role="navigation">
+                        <div class="block-inner clearfix">
+                            <h2 class="block-title">Engage/Follow</h2>
+
+                            <div class="block-content content">
+                                <ul class="menu clearfix">
+                                    <li class="first leaf menu1036">
+                                        <a href="https://public.govdelivery.com/accounts/USDOC/subscriber/new" class="icon-mail" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Subscribe</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu1182">
+                                        <a href="https://www.commerce.gov/page/contact-us" class="icon-phone">
+                                            <div class="menu-link-wrapper"><span>Contact Us</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu665">
+                                        <a href="https://www.facebook.com/Commercegov" class="icon-facebook" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Facebook</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu668">
+                                        <a href="http://www.flickr.com/photos/commercegov/" class="icon-flickr" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Flickr</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu663">
+                                        <a href="https://plus.google.com/100473621788522700548/posts" class="icon-google-plus" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Google+</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu667">
+                                        <a href="http://www.linkedin.com/company/u.s.-department-of-commerce" class="icon-linked-in" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Linkedin</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="leaf menu664">
+                                        <a href="https://twitter.com/CommerceGov" class="icon-twitter" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>Twitter</span></div>
+                                        </a>
+                                    </li>
+                                    <li class="last leaf menu666">
+                                        <a href="http://www.youtube.com/CommerceNews" class="icon-youtube" target="_blank" fonticon="0">
+                                            <div class="menu-link-wrapper"><span>YouTube</span></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="region region-page-bottom">
+    <div class="region-inner clearfix">
+        <div class="menu-minipanels menu-minipanel-664">
+            <div class="two-50 at-panel panel-display clearfix" id="mini-panel-search">
+                <div class="region region-two-50-top region-conditional-stack">
+                    <div class="region-inner clearfix">
+                        <div class="panel-pane pane-block pane-search-form no-title block">
+                            <div class="block-inner clearfix">
+
+
+
+                                <div class="block-content">
+                                    <form action="https://search.commerce.gov/search" method="get" id="search-block-form" accept-charset="UTF-8">
+                                        <div>
+                                            <div class="container-inline">
+                                                <h2 class="element-invisible">Search form</h2>
+                                                <div class="form-item form-type-textfield form-item-search-block-form">
+                                                    <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+                                                    <input class="usagov-search-autocomplete ui-autocomplete-input ui-corner-all form-text searchTextColor" autocomplete="off" type="text" name="query" placeholder="Search..." id="edit-search-block-form--2" value="" size="15" maxlength="128" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                                                </div>
+                                                <div class="form-actions form-wrapper" id="edit-actions"><input type="image" id="edit-submit" name="submit" value="Search" src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/images/button-search.png" class="form-submit"></div><input type="hidden" name="affiliate" value="commerce.gov">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="region region-two-50-first">
+                    <div class="region-inner clearfix">
+                        <div class="panel-pane pane-custom pane-3 no-title block">
+                            <div class="block-inner clearfix">
+
+
+
+                                <div class="block-content">
+                                    <p><a class="button" href="http://dir.commerce.gov/"><span class="fonticon icon-users"></span><span class="title">Person finder</span></a></p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="region region-two-50-second">
+                    <div class="region-inner clearfix">
+                        <div class="panel-pane pane-custom pane-4 no-title block">
+                            <div class="block-inner clearfix">
+
+
+
+                                <div class="block-content">
+                                    <p><a href="https://www.commerce.gov/search" class="button"><span class="fonticon icon-learn"></span><span class="title">Advanced search</span></a></p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="region region-two-50-bottom region-conditional-stack">
+                    <div class="region-inner clearfix">
+                        <div class="panel-pane pane-custom pane-2 no-title block">
+                            <div class="block-inner clearfix">
+
+
+
+                                <div class="block-content">
+                                    <a href="https://data.commerce.gov/" class="button"><span class="fonticon icon-pie"></span><span class="title">Search over 40,000 Datasets</span></a>
+                                    <!-- <div class="dark-bg portal-search rounded-bottom">
+        <form accept-charset="UTF-8" action="http://catalog.data.gov/dataset" id="search-data" method="get">
+        <div class="form-item form-type-textfield"><label class="element-invisible" for="search-data">Search Datasets</label> <input id="search-data" name="q" placeholder="Search over 40,000 Datasets" type="text" value="organization:(doc-gov OR bea-gov OR bis-doc-gov OR nist-gov OR mbda-doc-gov OR noaa-gov OR trade-gov OR ntia-doc-gov OR ntis-gov OR nws-doc-gov OR census-gov OR eda-doc-gov OR uspto-gov)" /></div>
+        <div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" name="submit" src="https://www.commerce.gov/sites/all/themes/doc/doc_theme/images/button-search.png" type="image" value="Search" /></div>
+        </form>
+        </div> --></div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-minipanels menu-minipanel-1121">
+            <div class="panel-display panel-1col clearfix" id="mini-panel-doc_commerce_gov_engage">
+                <div class="panel-panel panel-col">
+                    <div>
+                        <div class="panel-pane pane-block pane-menu-menu-engage-follow no-title block">
+                            <div class="block-inner clearfix">
+
+
+
+                                <div class="block-content">
+                                    <ul class="menu clearfix">
+                                        <li class="first leaf menu1036">
+                                            <a href="https://public.govdelivery.com/accounts/USDOC/subscriber/new" class="icon-mail" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>Subscribe</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="leaf menu1182">
+                                            <a href="https://www.commerce.gov/page/contact-us" class="icon-phone">
+                                                <div class="menu-link-wrapper"><span>Contact Us</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="leaf menu665">
+                                            <a href="https://www.facebook.com/Commercegov" class="icon-facebook" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>Facebook</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="leaf menu668">
+                                            <a href="http://www.flickr.com/photos/commercegov/" class="icon-flickr" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>Flickr</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="leaf menu663">
+                                            <a href="https://plus.google.com/100473621788522700548/posts" class="icon-google-plus" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>Google+</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="leaf menu667">
+                                            <a href="http://www.linkedin.com/company/u.s.-department-of-commerce" class="icon-linked-in" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>Linkedin</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="leaf menu664">
+                                            <a href="https://twitter.com/CommerceGov" class="icon-twitter" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>Twitter</span></div>
+                                            </a>
+                                        </li>
+                                        <li class="last leaf menu666">
+                                            <a href="http://www.youtube.com/CommerceNews" class="icon-youtube" target="_blank" fonticon="0">
+                                                <div class="menu-link-wrapper"><span>YouTube</span></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://www.commerce.gov/sites/all/modules/contrib/menu_minipanels/js/menu_minipanels.js?o1xl7k"></script>
+<script src="https://www.commerce.gov/sites/all/libraries/qtip/jquery.qtip-1.0.0-rc3.min.js?o1xl7k"></script>
+
+<script>jQuery(function() {
+  jQuery('.accordion-menu-1').accordion({ animated: 'slide', autoHeight: false, clearStyle: false, fillSpace: false, event: 'mousedown', header: 'h3', collapsible: true, navigation: false, icons: { 'header': 'icon-plus', 'headerSelected': 'icon-minus' }, cookie: { path: '/' }, active: false });
+  jQuery('.accordion-menu-1 .accordion-header.no-children').each(function(index, element) {
+    jQuery(this)
+      .unbind('.accordion')
+      .children('.ui-icon')
+      .removeClass('icon-plus')
+      .addClass('icon-minus');
+  });
+});</script>
+<script>var usasearch_config = { siteHandle:'commerce.gov' };
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = 'https://search.commerce.gov/javascripts/remote.loader.js';
+document.getElementsByTagName('head')[0].appendChild(script);
+</script>
+
+<script defer="defer" src="https://ips-invite.iperceptions.com/webValidator.aspx?sdfc=5d169f49-48667-5b0fb26b-53f2-483b-a40b-d984747dd023&amp;lID=1&amp;loc=4Q-WEB2&amp;cD=30&amp;rF=True&amp;iType=1&amp;domainname=1"></script>
+
+<script src="https://www.commerce.gov/sites/all/modules/custom/doc_font_check/doc_font_check.js?o1xl7k"></script>
+
+
+<span class="test-font" style="font-family: testfont; opacity: 1;"></span>
+<script>
+      jQuery(document).ready(function($) {
+        //Modernizr.load({test: Modernizr.placeholder, nope: '/sites/all/modules/custom/doc_global/doc_global.doc-ie-placeho$
+        if (!('placeholder' in document.createElement('input'))) {
+          $.getScript('/sites/all/themes/doc/doc_theme/scripts/doc-ie-placeholder.js');
+        }
+      });
+    </script>
+<script>
+      jQuery(document).ready(function($) {
+        //Modernizr.load({test: Modernizr.placeholder, nope: '/sites/all/modules/custom/doc_global/doc_global.doc-ie-placeho$
+        if (!('placeholder' in document.createElement('input'))) {
+          $.getScript('/sites/all/themes/doc/doc_theme/scripts/doc-ie-placeholder.js');
+        }
+      });
+    </script>
+<script>
+      jQuery(document).ready(function($) {
+        //Modernizr.load({test: Modernizr.placeholder, nope: '/sites/all/modules/custom/doc_global/doc_global.doc-ie-placeho$
+        if (!('placeholder' in document.createElement('input'))) {
+          $.getScript('/sites/all/themes/doc/doc_theme/scripts/doc-ie-placeholder.js');
+        }
+      });
+    </script>
+
+<div id="backtotop" class="jquery-once-2-processed" style="display: none;">Back to top</div><div id="usasearch_sayt" style="border: 0px; display: block; float: none; height: 0px; line-height: 0; margin: 0px; padding: 0px; position: static; width: 0px; background: none;"><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 401; top: 0px; left: 0px; display: none;"></ul><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 1; top: 0px; left: 0px; display: none;"></ul></div></body></html>
+
+    <!-- #### JAVASCRIPT FILES ### -->
+
+    <!-- js base -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- for demo purpose -->
+    <script src="js/jquery.cookie.js"></script>
+
+    <!-- waypoints for scroll spy -->
+    <script src="js/waypoints.min.js"></script>
+
+    <!-- maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script src="js/gmaps.js"></script>
+
+    <!-- masonry layout -->
+    <script src="js/masonry.pkgd.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+
+    <!-- jQuery scroll to -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+
+    <!-- jQuery counter -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- jQuery parallax -->
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+
+    <script type="text/javascript" src="fullcalendar-2.6.1/lib/moment.min.js"></script>
+    <script type="text/javascript" src="fullcalendar-2.6.1/fullcalendar.js"></script>
+
+    <!-- main js file -->
+
+    <script src="js/front.js"></script>
+
+    
+
+
+
+
+
+</body>
+
 </html>

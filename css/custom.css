@@ -94,7 +94,7 @@ div.blockContentStyling {
 ul.nav {
 	float: none;
 	text-align: center;
-	font-size: xx-large;
+	font-size: x-large;
 	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 
@@ -104,6 +104,43 @@ li.navLi {
 	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
 
 }
+
+.main-nav{
+	margin: auto;
+	background: #fff;
+  	height: 60px;
+  	z-index: 101;
+ 	box-shadow: 0 2px 3px rgba(0,0,0,.4);
+
+}
+ .main-nav > a{
+ 	float: none;
+ 	font-size: x-large;
+ 	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+ 	padding: 10px;
+ 	width: 600px;
+ 	margin: 0 auto;
+ }
+
+  .main-nav > a:hover, a:active {
+  	 text-decoration: none;
+  	 background-color: #f1f1f1;
+  }
+
+#nav-center{
+	width: 600px;
+	margin: 0 auto;
+}  
+
+.section, .main-nav {
+	position: relative;
+}
+ 
+/*.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 74;
+}*/
 
 div.generalFieldsKeywords h5, p {
 	display: inline;

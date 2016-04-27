@@ -179,7 +179,6 @@ h3.courseSubtitle {
 
 .envelopeIcon {
 	color: #004273;
-	display: block;
 }
 
 div#whatWeOffer {
@@ -233,3 +232,7 @@ h2.title.FAQTitle {
 	font-size: 18px;
 }
 
+.collaboratorDiv {
+	border-left-color: black;
+	border-left-style: solid;
+}

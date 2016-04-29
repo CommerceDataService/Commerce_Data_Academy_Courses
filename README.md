@@ -36,5 +36,3 @@ The Commerce Data Academy strives to empoower and educate employees of the Depar
 - jQuery Parallax ([http://ianlunn.co.uk/plugins/jquery-parallax](http://ianlunn.co.uk/plugins/jquery-parallax/))
 - jQuery Counter Up ([https://github.com/bfintal/Counter-Up](https://github.com/bfintal/Counter-Up))
 - Nette Framework ([http://nette.org/en/](http://nette.org/en/))
-
->>>>>>> Stashed changes

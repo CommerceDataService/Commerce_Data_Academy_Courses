@@ -38,6 +38,14 @@ jQuery(document).ready(function() {
       return str.toUpperCase();
     });
 
+    Handlebars.registerHelper('link', function(url) {
+      url  = Handlebars.Utils.escapeExpression(url);
+
+      var result = '<a href="' + url + '">' + "Register Here" + '</a>';
+
+      return new Handlebars.SafeString(result);
+    });
+
     function renderData(data) {
         var source    = jQuery('#data-template').html();
         var template  = Handlebars.compile(source);
@@ -77,6 +85,7 @@ jQuery(document).ready(function() {
     };
 
     $.getJSON('cda_courses.json', function(data){ onDataSuccess(data); });
+
 
 });
 

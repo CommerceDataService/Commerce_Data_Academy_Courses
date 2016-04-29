@@ -9,9 +9,9 @@ If you are a Commerce employee and have questions about this new data education 
 **Note** Please note that in order to view the archived [WebEx recordings](https://www.webex.com/play-webex-recording.html) (.arf) format, you will need to install the appropriate [network recording player](https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Network%20Recording%20Player) for your operating system.
 
 
-#### Folder contents
-- **Courses Materials**: Slides for each course held by the Data Academy.
-- **Network Recording Player**: Program for playing course recordings distributed after participating in a course.
+#### Course Materials**
+- You will be able to find links to the course materials in the CourseMaterialsLinks.md file
+- You can also look in the respective folder and find links to the materials there as well
 
 # Commere Data Academy Web Configuration #
 
@@ -26,15 +26,8 @@ The Commerce Data Academy strives to empoower and educate employees of the Depar
 **Plugins used in the template**
 
 - Owl Carousel ([http://www.owlcarousel.owlgraphic.com/](http://www.owlcarousel.owlgraphic.com))
-- jQuery Waypoints ([http://imakewebthings.com/jquery-waypoints/](http://imakewebthings.com/jquery-waypoints/))
 - animate.css ([http://daneden.github.io/animate.css/](http://daneden.github.io/animate.css/))
 - Modernizr ([http://modernizr.com/](http://modernizr.com/)) 
-- Bootstrap Hover Dropdown plugin ([https://github.com/CWSpear/bootstrap-hover-dropdown](https://github.com/CWSpear/bootstrap-hover-dropdown))
 - jQuery scrollTo ([http://demos.flesler.com/jquery/scrollTo/](http://demos.flesler.com/jquery/scrollTo/))
-- gmaps.js ([http://hpneo.github.io/gmaps/](http://hpneo.github.io/gmaps/))
-- Masonry ([http://masonry.desandro.com/](http://masonry.desandro.com/))
 - jQuery Parallax ([http://ianlunn.co.uk/plugins/jquery-parallax](http://ianlunn.co.uk/plugins/jquery-parallax/))
-- jQuery Counter Up ([https://github.com/bfintal/Counter-Up](https://github.com/bfintal/Counter-Up))
-- Nette Framework ([http://nette.org/en/](http://nette.org/en/))
-
->>>>>>> Stashed changes
+- Masonry([http://masonry.desandro.com/](http://masonry.desandro.com/))

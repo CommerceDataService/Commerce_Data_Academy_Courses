@@ -9,10 +9,25 @@ If you are a Commerce employee and have questions about this new data education 
 **Note** Please note that in order to view the archived [WebEx recordings](https://www.webex.com/play-webex-recording.html) (.arf) format, you will need to install the appropriate [network recording player](https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Network%20Recording%20Player) for your operating system.
 
 
-#### Folder contents
-- **Courses Materials**: Slides for each course held by the Data Academy.
-- **Network Recording Player**: Program for playing course recordings distributed after participating in a course.
+#### Course Materials**
+- You will be able to find links to the course materials in the CourseMaterialsLinks.md file
+- You can also look in the respective folder and find links to the materials there as well
+
+# Commere Data Academy Web Configuration #
+
+The Commerce Data Academy strives to empoower and educate employees of the Department of Commerce.
 
 
-#### Courses (2016 Season)
-[Commerce Data Academy Course List](http://commercedataservice.github.io/Commerce_Data_Academy_Courses/)
+## Credits ##
+
+- Bootstrap 3.3 - [http://getbootstrap.com/](http://getbootstrap.com/)
+- IT Worker - Responsive Template [http://it-worker.ondrejsvestka.cz/](http://it-worker.ondrejsvestka.cz/)
+
+**Plugins used in the template**
+
+- Owl Carousel ([http://www.owlcarousel.owlgraphic.com/](http://www.owlcarousel.owlgraphic.com))
+- animate.css ([http://daneden.github.io/animate.css/](http://daneden.github.io/animate.css/))
+- Modernizr ([http://modernizr.com/](http://modernizr.com/)) 
+- jQuery scrollTo ([http://demos.flesler.com/jquery/scrollTo/](http://demos.flesler.com/jquery/scrollTo/))
+- jQuery Parallax ([http://ianlunn.co.uk/plugins/jquery-parallax](http://ianlunn.co.uk/plugins/jquery-parallax/))
+- Masonry([http://masonry.desandro.com/](http://masonry.desandro.com/))

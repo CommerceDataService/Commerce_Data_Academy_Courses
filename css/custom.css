@@ -1,0 +1,319 @@
+/* your styles go here */
+* {
+
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+body h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.section h2.title {
+	font-size: 40px;
+}
+
+.navbar-fixed-top {
+	top: 75px;
+	z-index: 50;
+}
+
+.tertiaryContentWrapperStyling {
+	font-size: 14px;
+	font-family: "SourceSansProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footerWrapperStyling {
+	font-size: 14px;
+	font-family: "SourceSansProRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #e7f0f5
+}
+
+div.blockContentStyling {
+	background-color: #e7f0f5;
+	line-height: 1.4;
+}
+
+.regionFooterStyling {
+	background-color: #e7f0f5;
+}
+
+#intro .item h1 {
+	opacity: 1;
+	text-align: left;
+	text-transform: uppercase;
+	display: inline;
+}
+
+#intro .item h2 {
+	opacity: 1;
+	text-align: left;
+	margin-bottom: 12px;
+	display: inline;
+}
+
+.carousel-caption {
+	text-align: left;
+}
+
+.introTextSpan {
+	display: block;
+	text-shadow: 2px 2px 8px black;
+}
+
+.about-link{
+	color: white;
+	text-decoration: underline;
+}
+.about-link:hover{
+	color: #59A069;
+
+}
+
+.missionStatementText {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#missionStatement {
+	background-color: #861C20;
+}
+/* APPLIES TO STICKY HEADER - STARTS HERE */
+#intro .item {
+	background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),
+	rgba(0,0,0,0.55) url('../images/newLibraryImage.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  /*position: fixed;*/
+  top: 0;
+  /*padding-top: 170px;	*/
+}
+
+/*ul.nav {
+	float: none;
+	text-align: center;
+	font-size: x-large;
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+li.navLi {
+	float:none;
+	display: inline-block;
+	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+
+}*/
+
+.main-nav{
+	margin: auto;
+	background: #fff;
+  	height: 70px;
+  	z-index: 99;
+  	margin-bottom: -70px;
+ 	box-shadow: 0 2px 2px rgba(0,0,0,.4);
+
+}
+ 
+.main-nav > a{
+ 	float: none;
+ 	font-size: x-large;
+ 	font-family: "SourceSansProRegular","Helvetica Neue",Arial,Helvetica,sans-serif;
+ 	padding: 10px;
+ 	width: 600px;
+ 	margin: 0 auto;
+ 	color: #004273;
+ }
+
+.main-nav > a:hover, a:active {
+  	 text-decoration: none;
+  	 background-color: #f1f1f1;
+  }
+
+#nav-center{
+	width: 600px;
+	margin: 0 auto;
+}  
+
+.section, .main-nav {
+	position: relative;
+}
+ 
+.section {
+	background-color: white;
+	padding-top: 200px 50px 50px;
+} 
+
+/*#intro .item, */.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 74px;
+}
+/* END STICKY HEADER */
+
+div.generalFieldsKeywords h5, p {
+	display: inline;
+}
+
+div.generalFieldsTitle h4 {
+	font-weight: bold;
+}
+
+div.generalFieldsDescription {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.section#references {
+	padding-top: 10px;
+}
+
+p.courseListingKeys {
+	font-weight: bold;
+}
+
+p.courseDescription {
+	font-style: italic; 
+}
+
+span.courseSpanTag {
+	display: block;
+	margin-top: 20px;
+}
+
+/*#courses{
+	background: #002952
+}*/
+
+#detail .buttons a.btn.classRegistrationButton {
+	margin: 30px 10px 10px 0px;
+}
+
+.panel-title {
+	text-align: left;
+}
+
+.panel-body {
+	text-align: left;
+}
+
+.panel-body span {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.panel-body p {
+	font-style: italic;
+	display: block;
+}
+
+.design-icons{
+	width: 100px;
+}
+
+body.modal-open {
+	overflow: visible;
+}
+
+h2.title.courseTitleStyling {
+	margin-bottom: 40px;
+}
+
+h3.courseSubtitle {
+	margin-bottom: 66px;
+}
+
+.envelopeIcon {
+	color: #004273;
+}
+
+div#whatWeOffer {
+	background: #004273;
+	background-image: none;
+}
+
+div#FAQ {
+	background-image: none;
+	background: #004273;
+}
+
+h2.title.FAQTitle {
+	color: white;
+}
+
+#filter li.active, #filter li:hover {
+	background: #004273;
+}
+
+#filter li {
+	border-top: solid 1px #004273;
+	border-bottom: solid 1px #004273;
+}
+
+#filter a {
+	color: #004273;
+}
+
+#FAQ a {
+	font-weight: bold;
+	color: white;
+
+}
+
+#FAQ .panel-default > .panel-heading {
+	background-color: #004273;
+}
+
+#FAQ .panel {
+	background-color: #004273;
+}
+
+#FAQ .panel-body {
+	color: white;
+}
+
+#FAQ .panel-body a {
+	font-weight: 900;
+	color:  #d2a404;
+	font-size: 18px;
+}
+
+.collaboratorDiv {
+	border-left-color: black;
+	border-left-style: solid;
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}

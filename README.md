@@ -9,16 +9,12 @@ If you are a Commerce employee and have questions about this new data education 
 **Note** Please note that in order to view the archived [WebEx recordings](https://www.webex.com/play-webex-recording.html) (.arf) format, you will need to install the appropriate [network recording player](https://github.com/CommerceDataService/Commerce_Data_Academy_Courses/tree/master/Network%20Recording%20Player) for your operating system.
 
 
-#### Course Materials**
+#### Course Materials
 - You will be able to find links to the course materials in the CourseMaterialsLinks.md file
 - You can also look in the respective folder and find links to the materials there as well
 
-# Commere Data Academy Web Configuration #
 
-The Commerce Data Academy strives to empoower and educate employees of the Department of Commerce.
-
-
-## Credits ##
+#### Credits ####
 
 - Bootstrap 3.3 - [http://getbootstrap.com/](http://getbootstrap.com/)
 - IT Worker - Responsive Template [http://it-worker.ondrejsvestka.cz/](http://it-worker.ondrejsvestka.cz/)

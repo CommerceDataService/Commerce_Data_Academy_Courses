@@ -1,0 +1,15 @@
+.scroll {
+     /*Set a css background */
+    background:url(../img/header.jpg)fixed;
+    
+    /*Dont mind the rest*/
+    width:100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    
+
+    text-align:center;
+    color:#fff;
+    font-family:'Open Sans' sans-serif;
+}

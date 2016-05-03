@@ -469,42 +469,6 @@ var $modalBody = $('#modalBody');
 var $eventURL = $('#eventUrl');
 var $fullCalModal = $('#fullCalModal');
 
-// $('#calendar').fullCalendar({
-//         // put your options and callbacks here
-//         events: [
-//         	{
-//         		title: 'Intro to Photoshop & Design',
-//         		start: '2016-04-19',
-//         		description: 'Learn the basic principles and concepts of design such as color theory, typography, branding, user experience design, and mobile design. Practice what you learn in photoshop, and walk away with a design by the end of the class.'
-//         	},
-//         	{
-//         		title: 'Data Wrangling with Pandas',
-//         		start: '2016-06-13',
-//         		description: 'Download, explore, and wrangle the Titanic passenger manifest dataset with an eye toward developing a predictive model for survival.'
-//         	}, 
-//         	{
-//         		title: 'Data Storytelling with R',
-//         		start: '2016-06-01',
-//         		description: 'Overview of internal R data visualization tools as well as use of Shiny, Leaflet, and Plotly for interactive visualizations.'
-//         	},
-//         	{
-//         		title: 'Intro to Data Analysis',
-//         		start: '2016-05-17',
-//         		description: 'Given a dataset online, use R to load the data, compute summary statistics, and investigate correlations.'
-//         	},
-//         	{
-//         		title: 'Intro to R',
-//         		start: '2016-05-02',
-//         		description: 'Introductory course that covers basic R syntax, input and output, and basic statistical analysis.'
-//         	}
-//         ],
-//         eventClick: function(event, jsEvent, view) {
-//         	$modalTitle.html(event.title);
-//         	$modalBody.html(event.description);
-//         	$fullCalModal.modal();
-//         	return false;
-//         }
-// })
 
 // Scroll then Stick Navigation Bar
 var  mn = $(".main-nav");

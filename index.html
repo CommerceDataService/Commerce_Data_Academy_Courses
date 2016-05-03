@@ -117,7 +117,6 @@
     <!-- Bootstrap and Font Awesome css -->
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fullcalendar-2.6.1/fullcalendar.css">
 
     <!-- Theme stylesheet -->
     <link href="css/style.green.css" rel="stylesheet" id="theme-stylesheet">
@@ -135,7 +134,7 @@
     <link href="css/animate.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png">
 
     <!-- Mordernizr -->
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -823,7 +822,7 @@ _________________________________________________________ -->
                                 <a href="http://www.commerce.gov/dataservice"><img alt="Commerce Data Service" id="cdcthumbnail" src="images/cdc-temp-logo-v2.png" ></a>
                         </div>
                         
-                        <p class="col-md-7" style="text-align: left">The <a href="https://www.commerce.gov/dataservice/">Commerce Data Service</a> is a public startup within the Office of the Secretary, tasked with enhancing the contribution of data to the economy and American well-being. Our team of skilled engineers, data scientists, and UX/UI experts are teaching Commerce Data Academy courses.
+                        <p class="col-md-7" style="text-align: left">The <a href="https://www.commerce.gov/dataservice/" style="color: #004273">Commerce Data Service</a> is a public startup within the Office of the Secretary, tasked with enhancing the contribution of data to the economy and American well-being. Our team of skilled engineers, data scientists, and UX/UI experts are teaching Commerce Data Academy courses.
                         <br><br>
                         The goal of the Commerce Data Academy is to help educate and empower employees within the Department of Commerce to make data-driven decisions.</p>
                     </div>
@@ -1840,7 +1839,8 @@ _________________________________________________________ -->
     <script src="https://www.commerce.gov/sites/all/modules/contrib/menu_minipanels/js/menu_minipanels.js?o1xl7k"></script>
 <script src="https://www.commerce.gov/sites/all/libraries/qtip/jquery.qtip-1.0.0-rc3.min.js?o1xl7k"></script>
 
-<script>jQuery(function() {
+<script>
+
   jQuery('.accordion-menu-1').accordion({ animated: 'slide', autoHeight: false, clearStyle: false, fillSpace: false, event: 'mousedown', header: 'h3', collapsible: true, navigation: false, icons: { 'header': 'icon-plus', 'headerSelected': 'icon-minus' }, cookie: { path: '/' }, active: false });
   jQuery('.accordion-menu-1 .accordion-header.no-children').each(function(index, element) {
     jQuery(this)
@@ -1849,7 +1849,8 @@ _________________________________________________________ -->
       .removeClass('icon-plus')
       .addClass('icon-minus');
   });
-});</script>
+</script>
+
 <script>var usasearch_config = { siteHandle:'commerce.gov' };
 var script = document.createElement('script');
 script.type = 'text/javascript';
@@ -1902,16 +1903,11 @@ document.getElementsByTagName('head')[0].appendChild(script);
     <!-- waypoints for scroll spy -->
     <script src="js/waypoints.min.js"></script>
 
-    <!-- maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-    <script src="js/gmaps.js"></script>
-
     <!-- masonry layout -->
     <script src="js/masonry.pkgd.min.js"></script>
 
     <!-- owl carousel -->
     <script src="js/owl.carousel.min.js"></script>
-
 
     <!-- jQuery scroll to -->
     <script src="js/jquery.scrollTo.min.js"></script>
@@ -1921,9 +1917,6 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
     <!-- jQuery parallax -->
     <script src="js/jquery.parallax-1.1.3.js"></script>
-
-    <script type="text/javascript" src="fullcalendar-2.6.1/lib/moment.min.js"></script>
-    <script type="text/javascript" src="fullcalendar-2.6.1/fullcalendar.js"></script>
 
     <!-- main js file -->
 

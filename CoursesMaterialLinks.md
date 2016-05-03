@@ -1,5 +1,12 @@
 #Course Materials Links
 
+## Download Media Player
+ - If you have a Mac, please download the following file to install the network media player
+  - [Download (MAC)](https://s3.amazonaws.com/cds-cda/MediaPlayerFiles/webexnbrplayer_intel.dmg)
+ - If you have a PC, please download the following file to install the network media player
+  - [Download (PC)](https://s3.amazonaws.com/cds-cda/MediaPlayerFiles/nbr2player.zip)
+
+
 ##_Janary 2016_
 
 *Excel at Excel*
@@ -22,20 +29,20 @@
 ##_March 2016_
 
 *Data Science Basics*
-  1. [Class Recording](https://s3.amazonaws.com/cds-cda/Commerce+Data+Academy+-+Data+Science+I+Basics-20160314+1639-1.arf.zip)
-  2. [Presentation](https://s3.amazonaws.com/cds-cda/Data+Academy-+Data+Science+Basics.pdf)
+  1. [Class Recording](https://s3.amazonaws.com/cds-cda/DataSci_Mar2016/Commerce+Data+Academy+-+Data+Science+I+Basics-20160314+1639-1.arf.zip)
+  2. [Presentation](https://s3.amazonaws.com/cds-cda/DataSci_Mar2016/Data+Academy-+Data+Science+Basics.pdf)
 
 *Git and GitHub*
-  1. [Class Recording](https://s3.amazonaws.com/cds-cda/Working+with+Teams+(Git+and+GitHub)-20160321+1703-1.arf.zip)
-  2. [Presentation](https://s3.amazonaws.com/cds-cda/Data+Academy-+Git+and+Github.pdf)
+  1. [Class Recording](https://s3.amazonaws.com/cds-cda/GitHub_Mar2016/Working+with+Teams+(Git+and+GitHub)-20160321+1703-1.arf.zip)
+  2. [Presentation](https://s3.amazonaws.com/cds-cda/GitHub_Mar2016/Data+Academy-+Git+and+Github.pdf)
 
 
 ##_April 2016_
 
 *Intro to PhotoShop and Design*
-  1. [Photoshop Materials](https://s3.amazonaws.com/cds-cda/Photoshop-Class-Materials.zip)
-  2. [Presentation](https://s3.amazonaws.com/cds-cda/Introduction-to-Design-and-Photoshop-Slides.pdf)
+  1. [Photoshop Materials](https://s3.amazonaws.com/cds-cda/Photoshop_Apr2016/Photoshop-Class-Materials.zip)
+  2. [Presentation](https://s3.amazonaws.com/cds-cda/Photoshop_Apr2016/Introduction-to-Design-and-Photoshop-Slides.pdf)
 
 *Intro to Python*
-  1. [Class Recording](https://s3.amazonaws.com/cds-cda/Intro_To_Python.zip)
-  2. [Presentation](https://s3.amazonaws.com/cds-cda/Intro+to+Python.pdf)
+  1. [Class Recording](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro_To_Python.zip)
+  2. [Presentation](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro+to+Python.pdf)

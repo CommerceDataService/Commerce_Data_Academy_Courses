@@ -298,6 +298,11 @@ h2.title.FAQTitle {
 .collaboratorDiv {
 	border-left-color: black;
 	border-left-style: solid;
+	height: 350px;
+}
+
+#datasocietylogo {
+	padding-top: 50px;
 }
 
 /* Underline From Left */

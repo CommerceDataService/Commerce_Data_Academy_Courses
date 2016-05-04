@@ -482,3 +482,5 @@ $(window).scroll(function() {
     mn.removeClass("main-nav-scrolled");
   }
 });
+
+$('.courseTitleStyling').addClass('color-red');

@@ -1603,17 +1603,17 @@ _________________________________________________________ -->
                                 <ul class="menu clearfix">
                                     <li class="first leaf menu1036">
                                         <a href="https://public.govdelivery.com/accounts/USDOC/subscriber/new" class="icon-mail" target="_blank" fonticon="0">
-                                            <div class="menu-link-wrapper"><span>Subscribe</span></div>
+                                            <div class="menu-link-wrapper mobileIconDiv"><span>Subscribe</span></div>
                                         </a>
                                     </li>
                                     <li class="leaf menu1182">
                                         <a href="https://www.commerce.gov/page/contact-us" class="icon-phone">
-                                            <div class="menu-link-wrapper"><span>Contact Us</span></div>
+                                            <div class="menu-link-wrapper mobileIconDiv"><span>Contact Us</span></div>
                                         </a>
                                     </li>
                                     <li class="leaf menu665">
                                         <a href="https://www.facebook.com/Commercegov" class="icon-facebook" target="_blank" fonticon="0">
-                                            <div class="menu-link-wrapper"><span>Facebook</span></div>
+                                            <div class="menu-link-wrapper mobileIconDiv"><span>Facebook</span></div>
                                         </a>
                                     </li>
                                     <li class="leaf menu668">
@@ -1811,7 +1811,7 @@ _________________________________________________________ -->
 <script src="https://www.commerce.gov/sites/all/libraries/qtip/jquery.qtip-1.0.0-rc3.min.js?o1xl7k"></script>
 
 <script>
-jQuery(function() {
+  var jQuery = jQuery;
   jQuery('.accordion-menu-1').accordion({ animated: 'slide', autoHeight: false, clearStyle: false, fillSpace: false, event: 'mousedown', header: 'h3', collapsible: true, navigation: false, icons: { 'header': 'icon-plus', 'headerSelected': 'icon-minus' }, cookie: { path: '/' }, active: false });
 
   jQuery('.accordion-menu-1 .accordion-header.no-children').each(function(index, element) {
@@ -1821,7 +1821,6 @@ jQuery(function() {
       .removeClass('icon-plus')
       .addClass('icon-minus');
   });
-});
 </script>
 
 <script>var usasearch_config = { siteHandle:'commerce.gov' };
@@ -1894,6 +1893,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
     <!-- main js file -->
 
     <script src="js/front.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
 
     
 

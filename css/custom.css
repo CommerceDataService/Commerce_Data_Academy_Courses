@@ -339,9 +339,9 @@ h2.title.FAQTitle {
 }
 
 #mobile-search {
-	overflow: auto;
+	height: 66px;
 }
 
-#mobile-menu {
-	overflow: auto;
+.mobile-menu a {
+	color: #004273;
 }

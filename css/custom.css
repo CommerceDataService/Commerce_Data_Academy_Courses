@@ -78,6 +78,8 @@ div.blockContentStyling {
 #missionStatement {
 	background-color: #861C20;
 }
+
+
 /* APPLIES TO STICKY HEADER - STARTS HERE */
 #intro .item {
 	background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),
@@ -110,7 +112,7 @@ li.navLi {
 .main-nav{
 	margin: auto;
 	background: #fff;
-  	height: 70px;
+  	height: 54px;
   	z-index: 99;
   	margin-bottom: -70px;
  	box-shadow: 0 2px 2px rgba(0,0,0,.4);
@@ -153,6 +155,15 @@ li.navLi {
 }
 /* END STICKY HEADER */
 
+
+
+div.row.services > div.col-md-3 {
+	padding: 0px;
+}
+
+
+
+
 div.generalFieldsKeywords h5, p {
 	display: inline;
 }
@@ -189,6 +200,10 @@ span.courseSpanTag {
 
 #detail .buttons a.btn.classRegistrationButton {
 	margin: 30px 10px 10px 0px;
+}
+
+#detail {
+	padding-top: 100px;
 }
 
 .panel-title {
@@ -283,6 +298,11 @@ h2.title.FAQTitle {
 .collaboratorDiv {
 	border-left-color: black;
 	border-left-style: solid;
+	height: 350px;
+}
+
+#datasocietylogo {
+	padding-top: 50px;
 }
 
 /* Underline From Left */
@@ -317,3 +337,43 @@ h2.title.FAQTitle {
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
 }
+
+#mobile-search {
+	height: 66px;
+}
+
+.mobile-menu a {
+	color: #004273;
+}
+
+
+
+
+.region-mobile-menu .block-menu-engage-follow h2.block-title {
+  display: none;
+}
+.region-mobile-menu .block-menu-engage-follow ul.menu {
+  text-align: center;
+}
+.region-mobile-menu .block-menu-engage-follow ul.menu li {
+  display: inline-block;
+}
+.region-mobile-menu .block-menu-engage-follow ul.menu li a {
+  border: none !important;
+  text-align: center;
+  background: none;
+}
+.region-mobile-menu .block-menu-engage-follow ul.menu li a:hover {
+  background: none;
+  color: inherit;
+}
+.region-mobile-menu .block-menu-engage-follow ul.menu li a:before, .region-mobile-menu .block-menu-engage-follow ul.menu li .polyfill-icon {
+  margin-right: 0;
+  color: green;
+}
+
+.mobileIconDiv span {
+	display: none;
+}
+
+

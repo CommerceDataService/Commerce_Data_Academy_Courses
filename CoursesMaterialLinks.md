@@ -7,7 +7,7 @@
   - [Download (PC)](https://s3.amazonaws.com/cds-cda/MediaPlayerFiles/nbr2player.zip)
 
 
-##_Janary 2016_
+##_January 2016_
 
 *Excel at Excel*
   1. [Answer Key](https://s3.amazonaws.com/cds-cda/Excel_Jan2016/Excel+at+Excel+Answer+Key.xlsx)

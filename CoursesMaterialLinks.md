@@ -47,3 +47,13 @@
   1. [Class Recording](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro_To_Python.zip)
   2. [Presentation](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro+to+Python.pdf)
 
+
+##_April 2016_
+
+*Intro to R*
+  1. [Class Recording] (https://s3.amazonaws.com/cds-cda/IntroR_May2016/IntroToR_Recording)
+  2. [Presentation] (https://s3.amazonaws.com/cds-cda/IntroR_May2016/IntroToR.PDF)
+
+*Intro to Data Analysis with R*
+  1. [Class Recording] (https://s3.amazonaws.com/cds-cda/DataAnalysis_May2016/intro_to_data_analysis.mp4)
+  2. [Presentation] (https://s3.amazonaws.com/cds-cda/DataAnalysis_May2016/Data+Academy_+Intro+to+Data+Analysis+with+R.pdf)

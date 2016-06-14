@@ -44,7 +44,7 @@
   2. [Presentation](https://s3.amazonaws.com/cds-cda/Photoshop_Apr2016/Introduction-to-Design-and-Photoshop-Slides.pdf)
 
 *Intro to Python*
-  1. [Class Recording](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro_To_Python.zip)
+  1. [Class Recording](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro+to+Python+-20160406+1701-1.mp4)
   2. [Presentation](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro+to+Python.pdf)
 
 

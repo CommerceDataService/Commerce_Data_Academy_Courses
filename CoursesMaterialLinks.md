@@ -48,7 +48,7 @@
   2. [Presentation](https://s3.amazonaws.com/cds-cda/IntroPyth_Apr2016/Intro+to+Python.pdf)
 
 
-##_April 2016_
+##_May 2016_
 
 *Intro to R*
   1. [Class Recording] (https://s3.amazonaws.com/cds-cda/IntroR_May2016/IntroToR_Recording)
@@ -57,3 +57,14 @@
 *Intro to Data Analysis with R*
   1. [Class Recording] (https://s3.amazonaws.com/cds-cda/DataAnalysis_May2016/intro_to_data_analysis.mp4)
   2. [Presentation] (https://s3.amazonaws.com/cds-cda/DataAnalysis_May2016/Data+Academy_+Intro+to+Data+Analysis+with+R.pdf)
+
+
+##_June 2016_
+
+*Data Storytelling with R*
+  1. [Class Recording] (https://s3.amazonaws.com/cds-cda/Storytelling_Jan2016/Data+Academy++Data+Storytelling+with+R-20160601+1701-1+(1).mp4)
+  2. [Presentation] (https://s3.amazonaws.com/cds-cda/Storytelling_Jan2016/Storytelling+with+Data+Jan+27+16.pdf)
+
+*Data Wrangling with Pandas*
+  1. [Class Recording] (https://s3.amazonaws.com/cds-cda/DataWranglingPandas_Jun2016/Data+Academy++Data+Wrangling+with+Pandas-20160613+1704-1.mp4)
+  2. [Presentation] (https://github.com/rebeccabilbro/hathor)

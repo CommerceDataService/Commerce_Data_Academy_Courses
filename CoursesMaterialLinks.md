@@ -67,4 +67,5 @@
 
 *Data Wrangling with Pandas*
   1. [Class Recording] (https://s3.amazonaws.com/cds-cda/DataWranglingPandas_Jun2016/Data+Academy++Data+Wrangling+with+Pandas-20160613+1704-1.mp4)
-  2. [Presentation] (https://github.com/rebeccabilbro/hathor)
+  2. [Presentation] (https://s3.amazonaws.com/cds-cda/DataWranglingPandas_Jun2016/Data+Academy-+Wrangling+with+Pandas.pdf)
+  3. [Github resources for class] (https://github.com/rebeccabilbro/hathor)

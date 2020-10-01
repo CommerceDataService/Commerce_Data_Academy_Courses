@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+*{
+  padding: 0;
+  margin: 0;
+}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
